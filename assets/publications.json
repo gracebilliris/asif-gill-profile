@@ -1,0 +1,1577 @@
+[
+  {
+    "title": "Trimodal Thinking for Architecting Human-Centric AI Systems: Fast, Slow, and Control",
+    "year": "2026",
+    "type": "journal-article",
+    "venue": "IEEE Transactions on Technology and Society",
+    "url": "https://doi.org/10.1109/TTS.2025.3551142"
+  },
+  {
+    "title": "Designing Observable Human-centric Agentic AI System Architecture for Decision-Making",
+    "year": "2026",
+    "type": "conference-paper",
+    "venue": "Lecture Notes in Business Information Processing",
+    "url": "https://doi.org/10.1007/978-3-032-16234-2_1"
+  },
+  {
+    "title": "CPL: A Context Processing Layer for Semantic Observability in Multi-Agent AI Systems",
+    "year": "2026",
+    "type": "preprint",
+    "venue": "",
+    "url": "https://doi.org/10.2139/ssrn.7194446"
+  },
+  {
+    "title": "A federated observability architecture pattern for reliable agentic AI software systems across the AI software development lifecycle",
+    "year": "2026",
+    "type": "journal-article",
+    "venue": "Information and Software Technology",
+    "url": "https://doi.org/10.1016/j.infsof.2026.108260"
+  },
+  {
+    "title": "Towards a Data Satellite Architecture for Federated Digital Ecosystems: Combating Data Pollution and Enhancing Trustworthiness",
+    "year": "2025",
+    "type": "book-chapter",
+    "venue": "",
+    "url": "https://doi.org/10.1007/978-3-031-94590-8_12"
+  },
+  {
+    "title": "Stealing Watermarks of Large Language Models via Mixed Integer Programming",
+    "year": "2025",
+    "type": "conference-paper",
+    "venue": "Proceedings - Annual Computer Security Applications Conference, ACSAC",
+    "url": "https://doi.org/10.1109/acsac63791.2024.00021"
+  },
+  {
+    "title": "NFTs enabled federated digital identity data representation and management",
+    "year": "2025",
+    "type": "journal-article",
+    "venue": "Discover Data",
+    "url": "https://doi.org/10.1007/s44248-025-00058-y"
+  },
+  {
+    "title": "Editorial: Business transformation through AI-enabled technologies.",
+    "year": "2025",
+    "type": "journal-article",
+    "venue": "Frontiers in Artificial Intelligence",
+    "url": "https://doi.org/10.3389/frai.2025.1577540"
+  },
+  {
+    "title": "DeepChainIoT: Exploring the Mutual Enhancement of Blockchain and Deep Neural Networks (DNNs) in the Internet of Things (IoT)",
+    "year": "2025",
+    "type": "journal-article",
+    "venue": "Electronics",
+    "url": "https://doi.org/10.3390/electronics14173395"
+  },
+  {
+    "title": "DeepChainIoT: Exploring the Mutual Enhancement of Blockchain and Deep Neural Networks (DNN) in the Internet of Things (IoT)",
+    "year": "2025",
+    "type": "preprint",
+    "venue": "",
+    "url": "https://doi.org/10.20944/preprints202507.0645.v1"
+  },
+  {
+    "title": "Data Governance Frameworks in Academic and Grey Literature and Their Applicability to SMEs",
+    "year": "2025",
+    "type": "book-chapter",
+    "venue": "",
+    "url": "https://doi.org/10.1007/978-3-031-94953-1_13"
+  },
+  {
+    "title": "Character-Level Perturbations Disrupt LLM Watermarks",
+    "year": "2025",
+    "type": "preprint",
+    "venue": "",
+    "url": "https://doi.org/10.48550/arxiv.2509.09112"
+  },
+  {
+    "title": "Business Architecture Copilot: Agentic AI-enabled Business Capability Modelling",
+    "year": "2025",
+    "type": "conference-paper",
+    "venue": "CEUR Workshop Proceedings",
+    "url": ""
+  },
+  {
+    "title": "Architecting for AI with digital twins and human-in-the-loop design",
+    "year": "2025",
+    "type": "online-resource",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Agile System Development Lifecycle for AI Systems: Decision Architecture",
+    "year": "2025",
+    "type": "preprint",
+    "venue": "",
+    "url": "https://doi.org/10.48550/arxiv.2501.09434"
+  },
+  {
+    "title": "Agent-Oriented Architecture: A New Paradigm for Autonomous Ecosystem Intelligence",
+    "year": "2025",
+    "type": "online-resource",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Adaptive Information Architecture: Information Element Identification and Organisation Patterns for Digital Ecosystem",
+    "year": "2025",
+    "type": "conference-paper",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "AI-based Identity Fraud Detection: A Systematic Review",
+    "year": "2025",
+    "type": "preprint",
+    "venue": "",
+    "url": "https://doi.org/10.48550/arxiv.2501.09239"
+  },
+  {
+    "title": "Using Knowledge Graphs for Architecting and Implementing Air Quality Data Exchange: Australian Context",
+    "year": "2024",
+    "type": "conference-paper",
+    "venue": "",
+    "url": "https://doi.org/10.1145/3657054.3657117"
+  },
+  {
+    "title": "UNSW-UTS:Trustworthy Digital Society submission in response to the House Standing Committee on Employment, Education and Training’s inquiry into the Digital Transformation of Workplaces",
+    "year": "2024",
+    "type": "report",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Trimodal Thinking for Architecting Human-Centric AI Systems: Fast, Slow and Control",
+    "year": "2024",
+    "type": "preprint",
+    "venue": "",
+    "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+  },
+  {
+    "title": "Towards the Development of a Copyright Risk Checker Tool for Generative Artificial Intelligence Systems",
+    "year": "2024",
+    "type": "journal-article",
+    "venue": "Digital Government: Research and Practice",
+    "url": "https://doi.org/10.1145/3703459"
+  },
+  {
+    "title": "The digital ecosystem information framework: Insights from action design research",
+    "year": "2024",
+    "type": "journal-article",
+    "venue": "Journal of Information Science",
+    "url": "https://doi.org/10.1177/01655515221086593"
+  },
+  {
+    "title": "Tailoring ontology retrieval for supporting requirements analysis",
+    "year": "2024",
+    "type": "journal-article",
+    "venue": "Advanced Engineering Informatics",
+    "url": "https://doi.org/10.1016/j.aei.2023.102231"
+  },
+  {
+    "title": "Large Language Model Watermark Stealing With Mixed Integer Programming",
+    "year": "2024",
+    "type": "preprint",
+    "venue": "",
+    "url": "https://doi.org/10.48550/arxiv.2405.19677"
+  },
+  {
+    "title": "Integrated Passenger Interaction Architecture and Privacy Risk Assessment Framework",
+    "year": "2024",
+    "type": "conference-paper",
+    "venue": "1st Saudi Conference on Information Systems Saudicis 2024",
+    "url": ""
+  },
+  {
+    "title": "Integrated Interaction Journey and Privacy Risk Assessment: A Graph Model",
+    "year": "2024",
+    "type": "journal-article",
+    "venue": "Procedia Computer Science",
+    "url": "https://doi.org/10.1016/j.procs.2024.06.335"
+  },
+  {
+    "title": "Explainable AI for cybersecurity automation, intelligence and trustworthiness in digital twin: Methods, taxonomy, challenges and prospects",
+    "year": "2024",
+    "type": "journal-article",
+    "venue": "ICT Express",
+    "url": "https://doi.org/10.1016/j.icte.2024.05.007"
+  },
+  {
+    "title": "Digital Government Ecosystem: Adaptive Architecture for Digital and ICT Investment Decision Making",
+    "year": "2024",
+    "type": "conference-paper",
+    "venue": "",
+    "url": "https://doi.org/10.1145/3657054.3657119"
+  },
+  {
+    "title": "Data Satellite System for Observability and Navigation of Data in Digital Government Ecosystems",
+    "year": "2024",
+    "type": "online-resource",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Business architecture methods: An initial review and mapping study",
+    "year": "2024",
+    "type": "preprint",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Adaptive Information Architecture for Sustainable Digital Ecosystem",
+    "year": "2024",
+    "type": "book-chapter",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "A Taxonomy-Based Digital Platform Evaluation Model for Air Quality Data Management (Short Paper)",
+    "year": "2024",
+    "type": "conference-paper",
+    "venue": "2023 Congress in Computer Science, Computer Engineering, &amp;amp; Applied Computing (CSCE)",
+    "url": "https://doi.org/10.1109/csce60160.2023.00307"
+  },
+  {
+    "title": "A Systematic Review of Personal Information Sharing in Smart Cities: Risks, Impacts, and Controls",
+    "year": "2024",
+    "type": "journal-article",
+    "venue": "Journal of the Knowledge Economy",
+    "url": "https://doi.org/10.1007/s13132-024-02126-1"
+  },
+  {
+    "title": "Why trusted digital identity verification platform is critical for supporting student lifecycle journey?",
+    "year": "2023",
+    "type": "other",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Towards the Development of a Security Threat Identification Framework for UAV Information Infrastructure",
+    "year": "2023",
+    "type": "conference-paper",
+    "venue": "2023 IEEE International Conference on Smart Internet of Things (SmartIoT)",
+    "url": "https://doi.org/10.1109/smartiot58732.2023.00055"
+  },
+  {
+    "title": "The OPENAIR Best Practice Guide for smart air quality monitoring",
+    "year": "2023",
+    "type": "report",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "The ArcOps: Connected Enterprise Architecture-Operations Pipeline",
+    "year": "2023",
+    "type": "online-resource",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Guest editorial for EMMSAD’2021 special section",
+    "year": "2023",
+    "type": "journal-article",
+    "venue": "Software and Systems Modeling (SoSyM)",
+    "url": "https://doi.org/10.1007/s10270-022-01058-1"
+  },
+  {
+    "title": "Data Sharing: Architecture, Patterns and Technology Solutions",
+    "year": "2023",
+    "type": "lecture-speech",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Analyzing Social Interactions and Conflicting Goals: Australian Government Ecosystem Context",
+    "year": "2023",
+    "type": "book-chapter",
+    "venue": "",
+    "url": "https://doi.org/10.4337/9781800888807.00014"
+  },
+  {
+    "title": "An Application Ontology for Reproducibility of Machine Learning Solutions",
+    "year": "2023",
+    "type": "conference-paper",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "An Application Ontology for Reproducibility of Machine Learning Solutions",
+    "year": "2023",
+    "type": "conference-paper",
+    "venue": "Australasian Conference on Information Systems Acis 2023",
+    "url": ""
+  },
+  {
+    "title": "Adaptive Enterprise Architecture as Information: Architecting Intelligent Enterprises",
+    "year": "2023",
+    "type": "book",
+    "venue": "",
+    "url": "https://doi.org/10.1142/12961"
+  },
+  {
+    "title": "Adaptive Data Architecture For Responsible & Safe AI Adoption in Government: Reflections & Learnings from 2023",
+    "year": "2023",
+    "type": "online-resource",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Adaptive Data Architecture For Responsible & Safe AI Adoption in Government: Reflections & Learnings from 2023",
+    "year": "2023",
+    "type": "online-resource",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Adaptive Architecture for Data, Analytics, and AI: Government's Navigation of Digital Disruption",
+    "year": "2023",
+    "type": "other",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "ADAPTIVE ENTERPRISE ARCHITECTURE WORKSHOP FOR DECISION MAKERS",
+    "year": "2023",
+    "type": "lecture-speech",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "A systematic review of blockchain adoption in education institutions",
+    "year": "2023",
+    "type": "journal-article",
+    "venue": "International Journal of Web and Grid Services",
+    "url": "https://doi.org/10.1504/IJWGS.2023.131234"
+  },
+  {
+    "title": "A Knowledge-Graph Based Integrated Digital EA Maturity and Performance Framework",
+    "year": "2023",
+    "type": "conference-paper",
+    "venue": "Lecture Notes in Business Information Processing",
+    "url": "https://doi.org/10.1007/978-3-031-26886-1_13"
+  },
+  {
+    "title": "Web 2.0 Technologies Adoption Barriers for External Contacts and Participation: A Case Study of Federal Establishment of Africa",
+    "year": "2022",
+    "type": "journal-article",
+    "venue": "International Journal of Business Information Systems",
+    "url": "https://doi.org/10.1504/IJBIS.2020.10024957"
+  },
+  {
+    "title": "The Co-construct/ Co-evolving Process between Organization’s Absorptive Capacity and Enterprise System Practice under Changing Context: The Case of ERP Practice",
+    "year": "2022",
+    "type": "journal-article",
+    "venue": "Information Systems Frontiers",
+    "url": "https://doi.org/10.1007/s10796-021-10238-1"
+  },
+  {
+    "title": "PESTLE+ risk analysis model to assess pandemic preparedness of digital ecosystems",
+    "year": "2022",
+    "type": "journal-article",
+    "venue": "IEEE Security and Privacy",
+    "url": "https://doi.org/10.1002/spy2.187"
+  },
+  {
+    "title": "Integrated identity and access management metamodel and pattern system for secure enterprise architecture",
+    "year": "2022",
+    "type": "journal-article",
+    "venue": "Data & Knowledge Engineering",
+    "url": "https://doi.org/10.1016/j.datak.2022.102038"
+  },
+  {
+    "title": "Governance Challenges of AI-enabled Decentralized Autonomous Organizations: Toward a Research Agenda",
+    "year": "2022",
+    "type": "conference-paper",
+    "venue": "https://aisel.aisnet.org/icis2022/blockchain/blockchain/2/",
+    "url": ""
+  },
+  {
+    "title": "Exploit the Opportunities in Digitalisation to Build Your Business (Resourcing and Investment)",
+    "year": "2022",
+    "type": "lecture-speech",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Enterprise, Business-Process and Information Systems Modeling. 23rd International Conference, BPMDS 2022 and 27th International Conference, EMMSAD 2022, Held at CAiSE 2022, Leuven, Belgium, June 6–7, 2022, Proceedings.",
+    "year": "2022",
+    "type": "edited-book",
+    "venue": "Lecture Notes in Business Information Processing",
+    "url": "https://doi.org/10.1007/978-3-031-07475-2"
+  },
+  {
+    "title": "Digitalisation performance assessment: A systematic review",
+    "year": "2022",
+    "type": "journal-article",
+    "venue": "Technology in society",
+    "url": "https://doi.org/10.1016/j.techsoc.2022.101894"
+  },
+  {
+    "title": "Digital information exchange ontology and architecture",
+    "year": "2022",
+    "type": "other",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Digital Innovation for Performance",
+    "year": "2022",
+    "type": "lecture-speech",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Design Science in Entrepreneurship and Innovation:  Sharing Methodical Advances and Learning Together",
+    "year": "2022",
+    "type": "other",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Cybersecurity Enterprises Policies: A Comparative Study",
+    "year": "2022",
+    "type": "journal-article",
+    "venue": "Sensors",
+    "url": "https://doi.org/10.3390/s22020538"
+  },
+  {
+    "title": "Can Agile Enterprise Architecture be Implemented Successfully in Distributed Agile Development? Empirical Findings",
+    "year": "2022",
+    "type": "journal-article",
+    "venue": "Global Journal of Flexible Systems Management",
+    "url": "https://doi.org/10.1007/s40171-022-00298-w"
+  },
+  {
+    "title": "CIRCULAR INFORMATION LIFECYCLE MANAGEMENT FOR ENABLING CIRCULAR ECONOMY",
+    "year": "2022",
+    "type": "online-resource",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Attributes impacting cybersecurity policy development: An evidence from seven nations",
+    "year": "2022",
+    "type": "journal-article",
+    "venue": "Computers and Security",
+    "url": "https://doi.org/10.1016/j.cose.2022.102820"
+  },
+  {
+    "title": "Architecting Intelligent Enterprises: Digital Strategy, Architecture, & Innovation",
+    "year": "2022",
+    "type": "lecture-speech",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Architecting Data-Driven Intelligent Enterprises",
+    "year": "2022",
+    "type": "lecture-speech",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Adaptive enterprise architecture practice: data to decisions",
+    "year": "2022",
+    "type": "online-resource",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "A systematic review of the purposes of Blockchain and fog computing integration: classification and open issues.",
+    "year": "2022",
+    "type": "journal-article",
+    "venue": "Journal of Cloud Computing: Advances, Systems and Applications",
+    "url": "https://doi.org/10.1186/s13677-022-00353-y"
+  },
+  {
+    "title": "A Regulatory Control Framework for Decentrally Governed DLT Systems: Action Design Research",
+    "year": "2022",
+    "type": "journal-article",
+    "venue": "Information & Management",
+    "url": "https://doi.org/10.1016/j.im.2021.103555"
+  },
+  {
+    "title": "A Reference Architecture for IoT-Enabled Smart Buildings",
+    "year": "2022",
+    "type": "journal-article",
+    "venue": "SN Computer Science",
+    "url": "https://doi.org/10.1007/s42979-022-01401-9"
+  },
+  {
+    "title": "A Conceptual Model to Assess the Maturity Of Information Security Audit Process",
+    "year": "2022",
+    "type": "conference-paper",
+    "venue": "CEUR Workshop Proceedings",
+    "url": ""
+  },
+  {
+    "title": "What is and why data architecture?",
+    "year": "2021",
+    "type": "lecture-speech",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "The Critical Communication Challenges Between Geographically Distributed Agile Development Teams: Empirical Findings",
+    "year": "2021",
+    "type": "journal-article",
+    "venue": "IEEE Transactions on Professional Communication",
+    "url": "https://doi.org/10.1109/TPC.2021.3110396"
+  },
+  {
+    "title": "Systematic Analysis of Safety and Security Risks in Smart Homes",
+    "year": "2021",
+    "type": "journal-article",
+    "venue": "Computers, Materials and Continua",
+    "url": "https://doi.org/10.32604/cmc.2021.016058"
+  },
+  {
+    "title": "Secure big data ecosystem architecture: challenges and solutions",
+    "year": "2021",
+    "type": "journal-article",
+    "venue": "EURASIP Journal on Wireless Communications and Networking",
+    "url": "https://doi.org/10.1186/s13638-021-01996-2"
+  },
+  {
+    "title": "Message from the EDOC 2021 Workshop and Demo Chairs",
+    "year": "2021",
+    "type": "conference-paper",
+    "venue": "Proceedings - IEEE International Enterprise Distributed Object Computing Workshop, EDOCW",
+    "url": "https://doi.org/10.1109/EDOCW52865.2021.00005"
+  },
+  {
+    "title": "HOW TO DEFINE INFORMATION OR DATA STRATEGY?",
+    "year": "2021",
+    "type": "online-resource",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Evaluating the DevOps Reference Architecture for Multi‑cloud\nIoT‑Applications",
+    "year": "2021",
+    "type": "journal-article",
+    "venue": "SN Computer Science",
+    "url": "https://doi.org/10.1007/s42979-021-00519-6"
+  },
+  {
+    "title": "Establishing Secure Digital Data Architecture: An Ecosystem Perspective",
+    "year": "2021",
+    "type": "lecture-speech",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Enterprise, Business-Process and Information Systems Modeling. 22nd International Conference, BPMDS 2021, and 26th International Conference, EMMSAD 2021, Held at CAiSE 2021, Melbourne, VIC, Australia, June 28–29, 2021, Proceedings.",
+    "year": "2021",
+    "type": "edited-book",
+    "venue": "Lecture Notes in Business Information Processing",
+    "url": "https://doi.org/10.1007/978-3-030-79186-5"
+  },
+  {
+    "title": "Ensuring your digital data ecosystem\nadapts to needs",
+    "year": "2021",
+    "type": "lecture-speech",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Empirical Investigation of Critical Requirements Engineering Practices for Global Software Development",
+    "year": "2021",
+    "type": "journal-article",
+    "venue": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2021.3092679"
+  },
+  {
+    "title": "Developing an access control management metamodel for secure digital enterprise architecture modeling",
+    "year": "2021",
+    "type": "journal-article",
+    "venue": "IEEE Symposium on Security and Privacy: Proceedings",
+    "url": "https://doi.org/10.1002/spy2.160"
+  },
+  {
+    "title": "Data Sharing: From Big Initiatives to Local Impact",
+    "year": "2021",
+    "type": "lecture-speech",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Cultivating strategic foundations for a data-driven IT strategy, architecture, and governance",
+    "year": "2021",
+    "type": "online-resource",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Can Business Architecture Modeling be Adaptive?",
+    "year": "2021",
+    "type": "journal-article",
+    "venue": "IT Professional",
+    "url": "https://doi.org/10.1109/mitp.2020.3043237"
+  },
+  {
+    "title": "Applying DevOps for Distributed Agile Development: A Case Study",
+    "year": "2021",
+    "type": "conference-paper",
+    "venue": "Advances in Software Engineering, Education, and e-Learning",
+    "url": "https://doi.org/10.1007/978-3-030-70873-3_50"
+  },
+  {
+    "title": "Adaptive enterprise architecture theory",
+    "year": "2021",
+    "type": "online-resource",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Adaptive architecture and principles for securing the iot systems",
+    "year": "2021",
+    "type": "conference-paper",
+    "venue": "Advances in Intelligent Systems and Computing",
+    "url": "https://doi.org/10.1007/978-3-030-50399-4_17"
+  },
+  {
+    "title": "Achieving dual outcomes in client facing software development studio",
+    "year": "2021",
+    "type": "lecture-speech",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "A Theory of Information Trilogy: Digital Ecosystem Information Exchange Architecture",
+    "year": "2021",
+    "type": "journal-article",
+    "venue": "Information",
+    "url": "https://doi.org/10.3390/info12070283"
+  },
+  {
+    "title": "A Review of Passenger Digital Information Privacy Concerns in Smart Airports",
+    "year": "2021",
+    "type": "journal-article",
+    "venue": "IEEE Access",
+    "url": "https://doi.org/10.1109/ACCESS.2021.3061425"
+  },
+  {
+    "title": "A Review of Digital Maturity Models from Adaptive Enterprise Architecture Perspective: Digital by Design",
+    "year": "2021",
+    "type": "conference-paper",
+    "venue": "2021 IEEE 23rd Conference on Business Informatics (CBI)",
+    "url": "https://doi.org/10.1109/cbi52690.2021.00023"
+  },
+  {
+    "title": "A People Centric Approach to Digital Transformation",
+    "year": "2021",
+    "type": "lecture-speech",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Towards an assessment framework of reuse: a knowledge level analysis approach",
+    "year": "2020",
+    "type": "journal-article",
+    "venue": "Complex & Intelligent Systems",
+    "url": "https://doi.org/10.1007/s40747-019-0116-1"
+  },
+  {
+    "title": "The DevOps Reference Architecture Evaluation : A Design Science Research Case Study",
+    "year": "2020",
+    "type": "conference-paper",
+    "venue": "2020 IEEE International Conference on Smart Internet of Things (SmartIoT)",
+    "url": "https://doi.org/10.1109/smartiot49966.2020.00052"
+  },
+  {
+    "title": "IoT-Enabled Smart Child Safety Digital System Architecture",
+    "year": "2020",
+    "type": "conference-paper",
+    "venue": "2020 IEEE 14th International Conference on Semantic Computing (ICSC)",
+    "url": "https://doi.org/10.1109/icsc.2020.00033"
+  },
+  {
+    "title": "How Digital Transformation and IoT Can Contribute to the UN Sustainable Development Goals",
+    "year": "2020",
+    "type": "other",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "EA for Digital – Digital for EA",
+    "year": "2020",
+    "type": "lecture-speech",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Developing an Integrated ISO 27701 and GDPR based Information Privacy Compliance Requirements Model",
+    "year": "2020",
+    "type": "conference-paper",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Big Data Management and Analytics Metamodel for IoT-Enabled Smart Buildings",
+    "year": "2020",
+    "type": "journal-article",
+    "venue": "IEEE Access",
+    "url": "https://doi.org/10.1109/ACCESS.2020.3024066"
+  },
+  {
+    "title": "Analytics-Enabled Adaptive Business Architecture Modeling",
+    "year": "2020",
+    "type": "journal-article",
+    "venue": "Complex Systems Informatics and Modeling Quarterly",
+    "url": "https://doi.org/10.7250/csimq.2020-23.03"
+  },
+  {
+    "title": "An Empirical Investigation of Geographically Distributed Agile Development: The Agile Enterprise Architecture is a Communication Enabler",
+    "year": "2020",
+    "type": "journal-article",
+    "venue": "IEEE Access",
+    "url": "https://doi.org/10.1109/ACCESS.2020.2990389"
+  },
+  {
+    "title": "A social engagement framework for the government ecosystem: Insights from australian government facebook pages",
+    "year": "2020",
+    "type": "conference-paper",
+    "venue": "ICIS 2020 Proceedings  ICIS 2020 Proceedings",
+    "url": ""
+  },
+  {
+    "title": "A Review of General Data Protection Regulation for Supply Chain Ecosystem",
+    "year": "2020",
+    "type": "conference-paper",
+    "venue": "Advances in Intelligent Systems and Computing",
+    "url": "https://doi.org/10.1007/978-3-030-22263-5_44"
+  },
+  {
+    "title": "A Review Towards the Development of Ontology Based Identity and Access Management Metamodel",
+    "year": "2020",
+    "type": "conference-paper",
+    "venue": "Advances in Intelligent Systems and Computing",
+    "url": "https://doi.org/10.1007/978-3-030-44038-1_21"
+  },
+  {
+    "title": "Using Adaptive Enterprise Architecture Framework for Defining the Adaptable Identity Ecosystem Architecture",
+    "year": "2019",
+    "type": "conference-paper",
+    "venue": "Acis 2019 Proceedings 30th Australasian Conference on Information Systems",
+    "url": ""
+  },
+  {
+    "title": "Using Adaptive Enterprise Architecture Framework for Defining the Adaptable Identity Ecosystem Architecture",
+    "year": "2019",
+    "type": "conference-paper",
+    "venue": "https://aisel.aisnet.org/acis2019/",
+    "url": ""
+  },
+  {
+    "title": "Privacy of IoT-Enabled Smart Home Systems",
+    "year": "2019",
+    "type": "book-chapter",
+    "venue": "",
+    "url": "https://doi.org/10.5772/intechopen.84338"
+  },
+  {
+    "title": "Configuration information system architecture: Insights from applied action design research",
+    "year": "2019",
+    "type": "journal-article",
+    "venue": "Information & Management",
+    "url": "https://doi.org/10.1016/j.im.2018.09.011"
+  },
+  {
+    "title": "An Agile-DevOps Reference Architecture for Teaching Enterprise Agile",
+    "year": "2019",
+    "type": "journal-article",
+    "venue": "International Journal of Learning, Teaching and Educational Research",
+    "url": "https://doi.org/10.26803/ijlter.18.7.9"
+  },
+  {
+    "title": "Adaptive Enterprise Data Modelling and Design for Machine Learning & Deep Learning",
+    "year": "2019",
+    "type": "lecture-speech",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Adaptive Data Design",
+    "year": "2019",
+    "type": "lecture-speech",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "A Review of the Seven Modelling Approaches for Digital Ecosystem Architecture",
+    "year": "2019",
+    "type": "conference-paper",
+    "venue": "2019 IEEE 21st Conference on Business Informatics (CBI)",
+    "url": "https://doi.org/10.1109/CBI.2019.00018"
+  },
+  {
+    "title": "A Conceptual Framework for Data Governance in IoT-enabled Digital IS Ecosystems",
+    "year": "2019",
+    "type": "conference-paper",
+    "venue": "Proceedings of the 8th International Conference on Data Science, Technology and Applications: DATA",
+    "url": "https://doi.org/10.5220/0007924302090216"
+  },
+  {
+    "title": "What Do Software Practitioners Really Think About Software Process Improvement Project Success? An Exploratory Study",
+    "year": "2018",
+    "type": "journal-article",
+    "venue": "Arabian Journal for Science and Engineering",
+    "url": "https://doi.org/10.1007/s13369-018-3140-3"
+  },
+  {
+    "title": "Scaling for agility: A reference model for hybrid traditional-agile software development methodologies",
+    "year": "2018",
+    "type": "journal-article",
+    "venue": "Information Systems Frontiers",
+    "url": "https://doi.org/10.1007/s10796-016-9672-8"
+  },
+  {
+    "title": "SECURE INFORMATION ARCHITECTURE: SECURITY BY DESIGN",
+    "year": "2018",
+    "type": "lecture-speech",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Investigating the Relationship between Business Analysts’ Competency and IS Requirements Elicitation: A Thematic-analysis Approach",
+    "year": "2018",
+    "type": "journal-article",
+    "venue": "Communications of the Association for Information Systems",
+    "url": "https://doi.org/10.17705/1CAIS.04212"
+  },
+  {
+    "title": "Digital capability dissected",
+    "year": "2018",
+    "type": "conference-paper",
+    "venue": "Acis 2018 29th Australasian Conference on Information Systems",
+    "url": "https://doi.org/10.5130/acis2018.ap"
+  },
+  {
+    "title": "DevOps for information management systems",
+    "year": "2018",
+    "type": "journal-article",
+    "venue": "VINE Journal of Information and Knowledge Management Systems",
+    "url": "https://doi.org/10.1108/VJIKMS-02-2017-0007"
+  },
+  {
+    "title": "DevOps Reference Architecture for Multi-Cloud IOT Applications",
+    "year": "2018",
+    "type": "conference-paper",
+    "venue": "",
+    "url": "https://doi.org/10.1109/CBI.2018.00026"
+  },
+  {
+    "title": "Analytical Model for Residential Predicting Energy Consumption",
+    "year": "2018",
+    "type": "conference-paper",
+    "venue": "",
+    "url": "https://doi.org/10.1109/CBI.2018.10049"
+  },
+  {
+    "title": "A review of information privacy laws and standards for secure digital ecosystems",
+    "year": "2018",
+    "type": "conference-paper",
+    "venue": "Acis 2018 29th Australasian Conference on Information Systems",
+    "url": "https://doi.org/10.5130/acis2018.bb"
+  },
+  {
+    "title": "A measurement model to analyze the effect of agile enterprise architecture on geographically distributed agile development",
+    "year": "2018",
+    "type": "journal-article",
+    "venue": "Journal of Software Engineering Research and Development",
+    "url": "https://doi.org/10.1186/s40411-018-0048-2"
+  },
+  {
+    "title": "One year on, is Australia’s cybersecurity strategy on track? Experts respond",
+    "year": "2017",
+    "type": "online-resource",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Motivators for adopting social computing in global software development: An empirical study",
+    "year": "2017",
+    "type": "journal-article",
+    "venue": "Journal of software: Evolution and Process",
+    "url": "https://doi.org/10.1002/smr.1872"
+  },
+  {
+    "title": "IoT architectural concerns: a systematic review",
+    "year": "2017",
+    "type": "conference-paper",
+    "venue": "Proceedings of the Second International Conference on Internet of things, Data and Cloud Computing",
+    "url": "https://doi.org/10.1145/3018896.3025166"
+  },
+  {
+    "title": "IoT Enabled Smart Buildings: A Systematic Review",
+    "year": "2017",
+    "type": "conference-paper",
+    "venue": "2017 Intelligent Systems Conference (IntelliSys)",
+    "url": "https://doi.org/10.1109/IntelliSys.2017.8324283"
+  },
+  {
+    "title": "Fog Computing Challenges: A Systematic Review",
+    "year": "2017",
+    "type": "conference-paper",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Distributed agile development: Applying a coverage analysis approach to the evaluation of a communication technology assessment tool",
+    "year": "2017",
+    "type": "book-chapter",
+    "venue": "",
+    "url": "https://doi.org/10.4018/978-1-5225-3417-4.ch083"
+  },
+  {
+    "title": "DevOps: Concepts, Practices, Tools, Benefits and\nChallenges",
+    "year": "2017",
+    "type": "conference-paper",
+    "venue": "PACIS2017; Proceedings 96",
+    "url": ""
+  },
+  {
+    "title": "Constructing enhanced default theories incrementally",
+    "year": "2017",
+    "type": "journal-article",
+    "venue": "Complex & Intelligent Systems",
+    "url": "https://doi.org/10.1007/s40747-017-0034-z"
+  },
+  {
+    "title": "Building an Adaptive Enterprise Architecture Capability for our Rapidly Evolving Digital World",
+    "year": "2017",
+    "type": "lecture-speech",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Building adaptive architecture as a strategic platform for digital transformation",
+    "year": "2017",
+    "type": "lecture-speech",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Aquatic Sciences Data Reference Model",
+    "year": "2017",
+    "type": "lecture-speech",
+    "venue": "http://asl-2017.p.asnevents.com.au/days/2017-09-27/abstract/45684",
+    "url": ""
+  },
+  {
+    "title": "Applying agility and living service systems thinking to enterprise architecture",
+    "year": "2017",
+    "type": "book-chapter",
+    "venue": "",
+    "url": "https://doi.org/10.4018/978-1-5225-1837-2.ch023"
+  },
+  {
+    "title": "Adaptive service e-contract information management reference architecture",
+    "year": "2017",
+    "type": "journal-article",
+    "venue": "VINE Journal of Information and Knowledge Management Systems",
+    "url": "https://doi.org/10.1108/VJIKMS-10-2016-0058"
+  },
+  {
+    "title": "Adaptive Strategy: Digital Transformation in Higher Education",
+    "year": "2017",
+    "type": "lecture-speech",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Adaptive Enterprise Strategy Journey Management Your Journey for Building an Adaptive Business Strategy and Execution Capability in a Rapidly Changing and Increasingly Digital World",
+    "year": "2017",
+    "type": "book",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Adaptive Analytics and Information Architecture",
+    "year": "2017",
+    "type": "lecture-speech",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Towards an IoT Big Data Analytics Framework: Smart Buildings Systems",
+    "year": "2016",
+    "type": "conference-paper",
+    "venue": "http://ieeexplore.ieee.org/document/7828529/",
+    "url": "https://doi.org/10.1109/HPCC-SmartCity-DSS.2016.0188"
+  },
+  {
+    "title": "IoT-enabled Emergency Information Supply Chain Architecture for Elderly People: The Australian Context",
+    "year": "2016",
+    "type": "journal-article",
+    "venue": "Information Systems",
+    "url": "https://doi.org/10.1016/j.is.2016.02.004"
+  },
+  {
+    "title": "Exploring the Role of Enterprise Architecture in IS-enabled OT: An EA Principles Perspective",
+    "year": "2016",
+    "type": "conference-paper",
+    "venue": "Proceedings - IEEE International Enterprise Distributed Object Computing Workshop, EDOCW",
+    "url": "https://doi.org/10.1109/EDOCW.2016.7584360"
+  },
+  {
+    "title": "Enterprise IT Governance: Back to Basics",
+    "year": "2016",
+    "type": "conference-paper",
+    "venue": "25th International Conference on Information Systems Development",
+    "url": ""
+  },
+  {
+    "title": "Empirical studies of geographically distributed agile development communication challenges: A systematic review",
+    "year": "2016",
+    "type": "journal-article",
+    "venue": "Information & Management",
+    "url": "https://doi.org/10.1016/j.im.2015.08.003"
+  },
+  {
+    "title": "Do They Miss the Lectures? – Flipped Classroom Perception by Software Engineering Students",
+    "year": "2016",
+    "type": "conference-paper",
+    "venue": "Proceedings of ECSEE 2016 - Flipped Classroom Perception by Software Engineering Students",
+    "url": "https://doi.org/10.2370/9783844045154"
+  },
+  {
+    "title": "Cloud Monitoring Data Challenges:  A Systematic Review",
+    "year": "2016",
+    "type": "conference-paper",
+    "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "url": "https://doi.org/10.1007/978-3-319-46687-3_8"
+  },
+  {
+    "title": "An Agile Enterprise Architecture-Driven Model for Geographically Distributed Agile Development",
+    "year": "2016",
+    "type": "conference-paper",
+    "venue": "Lecture Notes in Information Systems and Organisation",
+    "url": "https://doi.org/10.1007/978-3-319-30133-4_5"
+  },
+  {
+    "title": "Adaptive Enterprise Resilience Management: Adaptive Action Design Research in Financial Services Case Study",
+    "year": "2016",
+    "type": "conference-paper",
+    "venue": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7776665",
+    "url": "https://doi.org/10.1109/CBI.2016.21"
+  },
+  {
+    "title": "Adaptive Enterprise Architecture for the Future: Towards a Reconceptualization of EA",
+    "year": "2016",
+    "type": "conference-paper",
+    "venue": "Proceedings - CBI 2016: 18th IEEE Conference on Business Informatics",
+    "url": "https://doi.org/10.1109/CBI.2016.38"
+  },
+  {
+    "title": "Adaptive Enterprise Architecture Pipeline",
+    "year": "2016",
+    "type": "lecture-speech",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Sustainable Enterprise Architecture Towards Global Competitiveness",
+    "year": "2015",
+    "type": "lecture-speech",
+    "venue": "http://www.icem.lt/index.php/icem/article/view/2008",
+    "url": ""
+  },
+  {
+    "title": "Social architecture considerations in assessing social media for emergency information management applications",
+    "year": "2015",
+    "type": "journal-article",
+    "venue": "Australian Journal of Emergency Management",
+    "url": ""
+  },
+  {
+    "title": "Social Architecture: An Emergency Management Case Study",
+    "year": "2015",
+    "type": "journal-article",
+    "venue": "Australasian Journal of Information Systems",
+    "url": "https://doi.org/10.3127/ajis.v19i0.979"
+  },
+  {
+    "title": "Rethinking Enterprise Architecture for Sustainable Energy System Development",
+    "year": "2015",
+    "type": "journal-article",
+    "venue": "Journal of Electronic Science and Technology",
+    "url": "https://doi.org/10.11989/JEST.1674-862X.505151"
+  },
+  {
+    "title": "Moving Forward: Emerging Themes in Financial Services Technologies’ Adoption",
+    "year": "2015",
+    "type": "journal-article",
+    "venue": "Communications of the Association for Information Systems",
+    "url": "https://doi.org/10.17705/1cais.03612"
+  },
+  {
+    "title": "Moving Forward: Emerging Themes in Financial Services Technologies' Adoption",
+    "year": "2015",
+    "type": "journal-article",
+    "venue": "Communications of the Association for Information Systems",
+    "url": ""
+  },
+  {
+    "title": "Learning Enterprise Agile Software Engineering: Scaling Agility at the Enterprise Level",
+    "year": "2015",
+    "type": "conference-paper",
+    "venue": "Proceedings of the 2015 24th Australasian Software Engineering Conference (ASWEC)",
+    "url": "https://doi.org/10.1109/ASWEC.2015.26"
+  },
+  {
+    "title": "Le Bon Samaritain: A Community-Based Care Model Supported by Technology",
+    "year": "2015",
+    "type": "conference-paper",
+    "venue": "Studies in Health Technology and Informatics",
+    "url": "https://doi.org/10.3233/978-1-61499-558-6-50"
+  },
+  {
+    "title": "Distributed Agile Development: Applying a Coverage Analysis Approach to the Evaluation of a Communication Technology Assessment Tool",
+    "year": "2015",
+    "type": "journal-article",
+    "venue": "International Journal of e-Collaboration",
+    "url": "https://doi.org/10.4018/ijec.2015010104"
+  },
+  {
+    "title": "Distributed Agile Development Communication: An Agile Architecture Driven Framework",
+    "year": "2015",
+    "type": "journal-article",
+    "venue": "Journal of Software",
+    "url": "https://doi.org/10.17706/jsw.10.6.681-694"
+  },
+  {
+    "title": "Distributed Agile Development Communication: An Agile Architecture Driven Framework",
+    "year": "2015",
+    "type": "journal-article",
+    "venue": "Journal of Software",
+    "url": "https://doi.org/10.17706//jsw.10.6.681-694"
+  },
+  {
+    "title": "Business Process Trends",
+    "year": "2015",
+    "type": "book-chapter",
+    "venue": "",
+    "url": "https://doi.org/10.1016/B978-0-12-799959-3.00011-2"
+  },
+  {
+    "title": "Applying Agile Principles to BPM",
+    "year": "2015",
+    "type": "book-chapter",
+    "venue": "",
+    "url": "https://doi.org/10.1016/B978-0-12-799959-3.00027-6"
+  },
+  {
+    "title": "An Agile Service Resilience Architecture Capability: Financial Services Case Study",
+    "year": "2015",
+    "type": "conference-paper",
+    "venue": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7259951",
+    "url": "https://doi.org/10.1109/CBI.2015.36"
+  },
+  {
+    "title": "Agile enterprise architecture modelling: Evaluating the applicability and integration of six modelling standards",
+    "year": "2015",
+    "type": "journal-article",
+    "venue": "Information and Software Technology",
+    "url": "https://doi.org/10.1016/j.infsof.2015.07.002"
+  },
+  {
+    "title": "Adaptive Enterprise Architecture Modelling",
+    "year": "2015",
+    "type": "journal-article",
+    "venue": "Journal of Software",
+    "url": "https://doi.org/10.17706/jsw.10.5.628-638"
+  },
+  {
+    "title": "Adaptive Enterprise Architecture Driven Agile Development",
+    "year": "2015",
+    "type": "conference-paper",
+    "venue": "http://aisel.aisnet.org/isd2014/proceedings2015/",
+    "url": ""
+  },
+  {
+    "title": "Adaptive Cloud Enterprise Architecture",
+    "year": "2015",
+    "type": "book",
+    "venue": "",
+    "url": "https://doi.org/10.1142/9363"
+  },
+  {
+    "title": "A Review and comparison of service E-Contract Architecture Metamodels",
+    "year": "2015",
+    "type": "conference-paper",
+    "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "url": "https://doi.org/10.1007/978-3-319-26561-2-69"
+  },
+  {
+    "title": "A Review and Comparison of Service E-Contract Architecture Metamodels",
+    "year": "2015",
+    "type": "book-chapter",
+    "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "url": "https://doi.org/10.1007/978-3-319-26561-2_69"
+  },
+  {
+    "title": "Using Social Architecture to Analyzing  Online Social Network Use in Emergency  Management",
+    "year": "2014",
+    "type": "conference-paper",
+    "venue": "AMCIS 2014 PROCEEDINGS",
+    "url": ""
+  },
+  {
+    "title": "Towards the Development of an Initial Trust Model for the Adoption of Internet Banking Services in Jordan",
+    "year": "2014",
+    "type": "conference-paper",
+    "venue": "PACIS 2014 PROCEEDINGS",
+    "url": ""
+  },
+  {
+    "title": "Towards the Development of a Complex Adaptive Project Environment Assessment Tool",
+    "year": "2014",
+    "type": "conference-paper",
+    "venue": "Information System Development: Improving Enterprise Communication",
+    "url": "https://doi.org/10.1007/978-3-319-07215-9_39"
+  },
+  {
+    "title": "Hybrid Adaptive Software Development Capability: An Empirical Study",
+    "year": "2014",
+    "type": "journal-article",
+    "venue": "Journal of Software",
+    "url": "https://doi.org/10.4304/jsw.9.10.2614-2621"
+  },
+  {
+    "title": "Applying Agility and Living Service Systems Thinking to Enterprise Architecture",
+    "year": "2014",
+    "type": "journal-article",
+    "venue": "International Journal of Intelligent Information Technologies",
+    "url": "https://doi.org/10.4018/ijiit.2014010101"
+  },
+  {
+    "title": "Agile Global Software Development Communication Challenges: A Systematic Review",
+    "year": "2014",
+    "type": "conference-paper",
+    "venue": "PACIS 2014 PROCEEDINGS",
+    "url": ""
+  },
+  {
+    "title": "Agile Enterprise Architecture: A Case of a Cloud Technology-Enabled Government Enterprise Transformation",
+    "year": "2014",
+    "type": "conference-paper",
+    "venue": "PACIS 2014 PROCEEDINGS",
+    "url": ""
+  },
+  {
+    "title": "Agile Enterprise Architecture Modeling",
+    "year": "2014",
+    "type": "online-resource",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "A Study of Government Cloud Adoption: The Australian Context",
+    "year": "2014",
+    "type": "conference-paper",
+    "venue": "http://hdl.handle.net/10292/8109",
+    "url": ""
+  },
+  {
+    "title": "A Review of Literature of Initial Trust in E-Services: The Case of Internet Banking Services in Jordanian Context",
+    "year": "2014",
+    "type": "journal-article",
+    "venue": "Journal of Electronic Banking Systems",
+    "url": "https://doi.org/10.5171/2014.690673"
+  },
+  {
+    "title": "Towards the development of a cloud-based communication technologies assessment tool: An analysis of practitioners' perspectives",
+    "year": "2013",
+    "type": "journal-article",
+    "venue": "VINE: The Journal of Information and Knowledge Management Systems",
+    "url": "https://doi.org/10.1108/03055721311302142"
+  },
+  {
+    "title": "Towards the Development of an Adaptive Enterprise Service System Model Completed Research Paper",
+    "year": "2013",
+    "type": "conference-paper",
+    "venue": "AMCIS 2013 PROCEEDINGS",
+    "url": ""
+  },
+  {
+    "title": "Towards the Development of an Adaptive Enterprise Service System Model",
+    "year": "2013",
+    "type": "conference-paper",
+    "venue": "Americas Conference on Information Systems (AMCIS 2013)",
+    "url": ""
+  },
+  {
+    "title": "The Gill Framework: Next Generation Information Management Agile Enterprise Strategy, Architecture and Solutions",
+    "year": "2013",
+    "type": "other",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Special issue on 'empirical studies in software engineering'",
+    "year": "2013",
+    "type": "journal-article",
+    "venue": "IET Software",
+    "url": "https://doi.org/10.1049/iet-sen.2013.0231"
+  },
+  {
+    "title": "SaaS Requirements Engineering for Agile Development",
+    "year": "2013",
+    "type": "book-chapter",
+    "venue": "",
+    "url": "https://doi.org/10.4018/978-1-4666-2503-7.ch004"
+  },
+  {
+    "title": "Handling the Complexity of ISD Projects with Agile Methods: A Conceptual Foundation",
+    "year": "2013",
+    "type": "conference-paper",
+    "venue": "Proceedings of the 2012 International Conference on Information Systems Development",
+    "url": "https://doi.org/10.1007/978-1-4614-7540-8_32"
+  },
+  {
+    "title": "Factors Influencing Customer's Initial Trust of Internet Banking Services in the Jordanian Context",
+    "year": "2013",
+    "type": "conference-paper",
+    "venue": "22nd IBIMA Conference",
+    "url": ""
+  },
+  {
+    "title": "Defining a Social Architecture within the Enterprise Architecture Context",
+    "year": "2013",
+    "type": "online-resource",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Defining a Facility Architecture within the Agile Enterprise Architecture Context",
+    "year": "2013",
+    "type": "online-resource",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "An Integrated, Agile Approach to Enterprise Architecture for Managing Complex Enterprise Transformation",
+    "year": "2013",
+    "type": "other",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "An Enterprise Architecture Driven Approach to Virtualisation",
+    "year": "2013",
+    "type": "conference-paper",
+    "venue": "Pacific Asia Conference on Information Systems (PACIS 2013) Conference Proceedings Website",
+    "url": ""
+  },
+  {
+    "title": "The Gill Framework Adaptive Enterprise Architecture Toolkit",
+    "year": "2012",
+    "type": "book",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Explainer: What is crowdfunding?",
+    "year": "2012",
+    "type": "online-resource",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Evaluating A Communication Technology Assessment Tool (CTAT): A Case Of A Cloud Based Communication Tool",
+    "year": "2012",
+    "type": "conference-paper",
+    "venue": "Proceedings of Pacific Asia Conference on Information Systems 2012",
+    "url": ""
+  },
+  {
+    "title": "Demanding times",
+    "year": "2012",
+    "type": "other",
+    "venue": "CIO",
+    "url": ""
+  },
+  {
+    "title": "Crowd Sourcing Challenges Assessment Index for Disaster Management",
+    "year": "2012",
+    "type": "conference-paper",
+    "venue": "AMCIS 2012 Proceedings",
+    "url": ""
+  },
+  {
+    "title": "A decision to adopt",
+    "year": "2012",
+    "type": "other",
+    "venue": "CIO",
+    "url": ""
+  },
+  {
+    "title": "Connceptualization of a Context Aware Cloud Adaptation (CACA) Framework",
+    "year": "2011",
+    "type": "conference-paper",
+    "venue": "2011 IEEE Ninth International Conference on Dependable, Autonomic and Secure Computing (DASC)",
+    "url": ""
+  },
+  {
+    "title": "An evaluation of the goal-oriented approaches for modelling strategic alignment concept",
+    "year": "2011",
+    "type": "conference-paper",
+    "venue": "Proceedings - International Conference on Research Challenges in Information Science",
+    "url": "https://doi.org/10.1109/RCIS.2011.6006838"
+  },
+  {
+    "title": "An Empirical Analysis of Cloud, Mobile, Social and Green Computing: Financial Services IT Strategy and Enterprise Architecture",
+    "year": "2011",
+    "type": "conference-paper",
+    "venue": "2011 IEEE Ninth International Conference on Dependable, Autonomic and Secure Computing (DASC)",
+    "url": "https://doi.org/10.1109/DASC.2011.122"
+  },
+  {
+    "title": "Framework as software service (FaSS): an agile e-toolkit to support agile method tailoring",
+    "year": "2010",
+    "type": "conference-paper",
+    "venue": "ICSOFT 2010, Procs. 5th International Conference on Software and Data Technologies - Vol 2",
+    "url": ""
+  },
+  {
+    "title": "Empirical evaluation of Agile Process Life Cycle Management Framework",
+    "year": "2010",
+    "type": "conference-paper",
+    "venue": "Proceedings of 2010 Fourth International Conference on Research Challenges in Information Science",
+    "url": "https://doi.org/10.1109/RCIS.2010.5507381"
+  },
+  {
+    "title": "Agile Software Solution Framework: an analysis of practitioners' perspectives",
+    "year": "2009",
+    "type": "conference-paper",
+    "venue": "Lecture Notes in Business Information Processing",
+    "url": "https://doi.org/10.1007/978-3-642-01112-2_6"
+  },
+  {
+    "title": "An evaluation of the degree of agility in six agile methods and its applicability for method engineering",
+    "year": "2008",
+    "type": "journal-article",
+    "venue": "Information and Software Technology",
+    "url": "https://doi.org/10.1016/j.infsof.2007.02.002"
+  },
+  {
+    "title": "A framework to support the evaluation, adoption and improvement of agile methods in practice",
+    "year": "2008",
+    "type": "journal-article",
+    "venue": "Journal of Systems and Software",
+    "url": "https://doi.org/10.1016/j.jss.2007.12.806"
+  },
+  {
+    "title": "Using method engineering to make a traditional environment agile",
+    "year": "2007",
+    "type": "journal-article",
+    "venue": "Cutter It Journal",
+    "url": ""
+  },
+  {
+    "title": "Six aspects of an agile software development methodology",
+    "year": "2007",
+    "type": "conference-paper",
+    "venue": "Online Proceedings of the European and Mediterranean Conference on Information Systems (EMCIS) 2007",
+    "url": ""
+  },
+  {
+    "title": "Improving agile software development by the application of method engineering practices",
+    "year": "2007",
+    "type": "conference-paper",
+    "venue": "Proceedings IASTED International Conference on Software Engineering",
+    "url": ""
+  },
+  {
+    "title": "Defining an Integrated Agile Governance for Large Agile Software Development Environments",
+    "year": "2007",
+    "type": "conference-paper",
+    "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "url": "https://doi.org/10.1007/978-3-540-73101-6_23"
+  },
+  {
+    "title": "Construction of an agile software product enhancement process by using an agile software solution framework (ASSF) and situational method engineering",
+    "year": "2007",
+    "type": "conference-paper",
+    "venue": "Compsac -New York-",
+    "url": "https://doi.org/10.1109/COMPSAC.2007.98"
+  },
+  {
+    "title": "An agile toolkit to support agent-oriented and service-oriented computing mechanisms",
+    "year": "2007",
+    "type": "conference-paper",
+    "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "url": "https://doi.org/10.1007/978-3-540-73460-4_21"
+  },
+  {
+    "title": "Agile adoption and improvement model",
+    "year": "2007",
+    "type": "conference-paper",
+    "venue": "Online Proceedings of the European and Mediterranean Conference on Information Systems (EMCIS) 2007",
+    "url": ""
+  },
+  {
+    "title": "ASOP: an agile service-oriented process",
+    "year": "2007",
+    "type": "conference-paper",
+    "venue": "Frontiers in Artificial Intelligence and Applications",
+    "url": ""
+  },
+  {
+    "title": "ASOP: An Agile Service-Oriented Process",
+    "year": "2007",
+    "type": "conference-paper",
+    "venue": "Frontiers in Artificial Intelligence and Applications",
+    "url": ""
+  },
+  {
+    "title": "Measuring agility and adaptibility of agile methods:  A 4 dimensional analytical tool",
+    "year": "2006",
+    "type": "conference-paper",
+    "venue": "Proceedings of the IADIS international conference on applied computing 2006",
+    "url": ""
+  },
+  {
+    "title": "Crystallization of agility back to basics",
+    "year": "2006",
+    "type": "conference-paper",
+    "venue": "ICSOFT 2006",
+    "url": ""
+  },
+  {
+    "title": "Comparative evaluation of XP and scrum using the 4d analytical tool (4-DAT)",
+    "year": "2006",
+    "type": "conference-paper",
+    "venue": "Proceedings of the European and Mediterranean Conference on Information Systems Emcis 2006",
+    "url": ""
+  },
+  {
+    "title": "A framework to support non-fragile agile agent-oriented software development",
+    "year": "2006",
+    "type": "conference-paper",
+    "venue": "Frontiers in Artificial Intelligence and Applications",
+    "url": ""
+  },
+  {
+    "title": "Secure Enterprise Architecture Design",
+    "year": "Undated",
+    "type": "other",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Applying value co-creation concept from agility and service science to support collaborative learning",
+    "year": "Undated",
+    "type": "other",
+    "venue": "",
+    "url": ""
+  },
+  {
+    "title": "Agility and Learning: Applying agile practices to creating an active feedback-driven 360 learning environment",
+    "year": "Undated",
+    "type": "other",
+    "venue": "",
+    "url": ""
+  }
+]
