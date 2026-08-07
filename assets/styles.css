@@ -287,7 +287,6 @@ h2 em {
   position: relative;
   overflow: hidden;
   background: #102a50;
-  box-shadow: 28px 28px 0 #15335c;
 }
 
 .portrait-frame::before {
@@ -307,18 +306,26 @@ h2 em {
 }
 
 .portrait-note {
-  display: flex;
-  margin-top: 15px;
-  justify-content: space-between;
-  color: rgba(237, 243, 251, 0.62);
-  font-size: 11px;
+  display: block;
+  padding: 20px 22px;
+  color: var(--ink-soft);
+  background: var(--paper);
+  border-top: 4px solid var(--coral);
+  font-size: 10px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
 .portrait-note strong {
-  color: var(--paper);
-  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 27px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  text-transform: none;
 }
 
 .at-a-glance {
