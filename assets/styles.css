@@ -316,6 +316,11 @@ h2 em {
   text-transform: uppercase;
 }
 
+.portrait-note strong {
+  color: var(--paper);
+  font-weight: 600;
+}
+
 .at-a-glance {
   color: var(--paper);
   background: var(--coral);
