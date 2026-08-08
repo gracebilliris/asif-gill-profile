@@ -696,6 +696,49 @@ h2 em {
   color: #73a8f2;
 }
 
+.industry-highlights {
+  display: grid;
+  margin-bottom: 70px;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 20px;
+}
+
+.industry-highlights article {
+  display: flex;
+  min-height: 430px;
+  padding: 38px;
+  flex-direction: column;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+.industry-highlights article:last-child {
+  color: var(--paper);
+  background: var(--coral);
+}
+
+.industry-highlights h3 {
+  max-width: 620px;
+  margin: auto 0 24px;
+  font-size: clamp(36px, 4vw, 55px);
+  letter-spacing: -0.03em;
+}
+
+.industry-highlights article > p:not(.article-meta) {
+  max-width: 620px;
+  margin-bottom: 26px;
+  opacity: 0.75;
+}
+
+.industry-highlights article > span {
+  padding-top: 18px;
+  border-top: 1px solid currentColor;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+
 .contribution-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -740,6 +783,72 @@ h2 em {
   font-family: var(--serif);
   font-size: clamp(25px, 3vw, 36px);
   line-height: 1.25;
+}
+
+.updates {
+  background: var(--paper);
+}
+
+.updates-date {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.updates-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr 0.8fr;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.update-card {
+  display: flex;
+  min-height: 440px;
+  padding: 32px;
+  flex-direction: column;
+  border-right: 1px solid var(--line);
+}
+
+.update-card:last-child {
+  border-right: 0;
+}
+
+.update-card-featured {
+  color: var(--paper);
+  background: var(--ink);
+}
+
+.update-card .article-meta {
+  color: var(--coral);
+}
+
+.update-card h3 {
+  margin: auto 0 22px;
+  font-size: clamp(32px, 3vw, 44px);
+  letter-spacing: -0.025em;
+}
+
+.update-card > p:not(.article-meta) {
+  margin-bottom: 24px;
+  opacity: 0.7;
+}
+
+.update-card a {
+  align-self: flex-start;
+  padding-bottom: 3px;
+  border-bottom: 1px solid currentColor;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.updates-note {
+  max-width: 760px;
+  margin: 28px 0 0;
+  color: var(--ink-soft);
+  font-size: 12px;
 }
 
 .contact-grid > div > p {
@@ -1178,6 +1287,21 @@ h2 em {
 
   .article-grid {
     grid-template-columns: 1fr;
+  }
+
+  .industry-highlights,
+  .updates-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .update-card {
+    min-height: 360px;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .update-card:last-child {
+    border-bottom: 0;
   }
 
   .at-a-glance .shell {
