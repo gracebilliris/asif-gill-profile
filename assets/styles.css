@@ -844,13 +844,6 @@ h2 em {
   font-weight: 600;
 }
 
-.updates-note {
-  max-width: 760px;
-  margin: 28px 0 0;
-  color: var(--ink-soft);
-  font-size: 12px;
-}
-
 .contact-grid > div > p {
   max-width: 500px;
   margin-bottom: 38px;
