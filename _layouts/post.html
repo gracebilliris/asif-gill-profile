@@ -1,13 +1,11 @@
----
----
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Writing by Professor Asif Gill on AI, enterprise architecture and software systems.">
+    <meta name="description" content="{{ page.description | escape }}">
     <meta name="theme-color" content="#081a33">
-    <title>Writing | Professor Asif Gill</title>
+    <title>{{ page.title }} | Asif Gill</title>
     <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,52 +31,20 @@
         <a href="{{ '/#work' | relative_url }}">Research</a>
         <a href="{{ '/publications.html' | relative_url }}">Publications</a>
         <a href="{{ '/#updates' | relative_url }}">Updates</a>
-        <a href="{{ '/blog/' | relative_url }}" aria-current="page">Writing</a>
+        <a href="{{ '/blog/' | relative_url }}">Writing</a>
       </nav>
     </header>
-
-    <main id="main">
-      <header class="blog-hero shell">
-        <p class="eyebrow">Notes from the field</p>
-        <h1>Writing about systems that <em>adapt.</em></h1>
-        <p>
-          Essays and practical notes on human-centred AI, enterprise architecture,
-          digital ecosystems and the craft of building better software systems.
-        </p>
+    <main id="main" class="article-page">
+      <header>
+        <p class="eyebrow">{{ page.category }} · {{ page.date | date: "%B %Y" }}</p>
+        <h1>{{ page.title }}</h1>
+        <p class="standfirst">{{ page.description }}</p>
       </header>
-
-      <section class="blog-list shell section" aria-labelledby="latest-heading">
-        <div class="section-heading">
-          <p class="section-label">Latest</p>
-          <h2 id="latest-heading">Selected writing</h2>
-        </div>
-        {% for post in site.posts %}
-        <a class="blog-row" href="{{ post.url | relative_url }}">
-          <p class="blog-date">{{ post.date | date: "%b %Y" }}</p>
-          <div>
-            <p class="article-meta">{{ post.category }}</p>
-            <h3>{{ post.title }}</h3>
-            <p>{{ post.description }}</p>
-          </div>
-          <span class="round-arrow" aria-hidden="true">↗</span>
-        </a>
-        {% endfor %}
-      </section>
-
-      <section class="topics">
-        <div class="shell">
-          <p class="section-label">Explore by topic</p>
-          <div class="topic-list" aria-label="Writing topics">
-            <span>Human-centred AI</span>
-            <span>Enterprise architecture</span>
-            <span>Software engineering</span>
-            <span>Digital ecosystems</span>
-            <span>Design science</span>
-          </div>
-        </div>
-      </section>
+      <article class="article-body">
+        {{ content }}
+        <a class="article-back" href="{{ '/blog/' | relative_url }}">← Back to all writing</a>
+      </article>
     </main>
-
     <footer class="site-footer shell">
       <p>© <span data-year></span> Asif Gill</p>
       <p>Professor · Researcher · Advisor</p>

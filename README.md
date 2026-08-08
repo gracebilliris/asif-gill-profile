@@ -1,15 +1,8 @@
 # Asif Gill — profile and writing
 
-A lightweight static profile and blog landing page for Professor Asif Gill. It is
-designed for GitHub Pages and has no build step or runtime dependencies.
-
-## Preview locally
-
-```bash
-python3 -m http.server 8000
-```
-
-Open <http://localhost:8000>.
+A lightweight static profile and blog for Professor Asif Gill. GitHub Pages
+automatically builds the Markdown blog posts with Jekyll; the published site has
+no backend or runtime dependencies.
 
 ## Publish on Grace's GitHub
 
@@ -35,7 +28,8 @@ the destination repository's settings.
 - Complete searchable publication archive: `publications.html`
 - Static publication metadata: `assets/publications.json`
 - Writing index: `blog/index.html`
-- Locally hosted articles: `blog/*.html`
+- Blog posts: `_posts/*.md`
+- Reusable article layout: `_layouts/post.html`
 - Colours, typography and layout: `assets/styles.css`
 - Menu and current footer year: `assets/script.js`
 
@@ -55,3 +49,9 @@ python3 scripts/update_publications.py
 
 The generated JSON is committed to the repository, so the published website
 does not call ORCID or any other publication API.
+
+## Publishing blog posts
+
+See [`BLOGGING.md`](BLOGGING.md) for the browser-based workflow. Asif only needs
+to create a dated Markdown file in `_posts`; GitHub Pages automatically updates
+the writing index and publishes the article.

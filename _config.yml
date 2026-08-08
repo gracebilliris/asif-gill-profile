@@ -1,0 +1,11 @@
+title: Asif Gill
+description: Professor, researcher and advisor in human-centred AI, adaptive enterprise architecture and software systems.
+url: https://gracebilliris.github.io
+baseurl: /asif-gill-profile
+timezone: Australia/Sydney
+markdown: kramdown
+permalink: /blog/:title.html
+exclude:
+  - BLOGGING.md
+  - README.md
+  - scripts
