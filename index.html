@@ -11,8 +11,9 @@
     <title>Asif Gill</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="assets/simple.css">
+    <script src="assets/reveal.js" defer></script>
   </head>
-  <body class="cover-page">
+  <body class="reveal-page">
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="simple-header">
       <a class="simple-name" href="./">Asif Gill</a>
@@ -24,20 +25,58 @@
       </nav>
     </header>
 
-    <main id="main" class="cover-main">
-      <img src="assets/asif-gill.jpg" alt="Professor Asif Gill" width="408" height="408">
-      <div>
-        <h1>Asif Gill</h1>
-        <p>
-          Professor, researcher and technology leader working on human-centred AI,
-          adaptive enterprise architecture and software systems.
-        </p>
-      </div>
-    </main>
+    <main id="main" class="reveal-deck" data-reveal aria-label="Introduction">
+      <div class="reveal-track">
+        <section class="reveal-panel reveal-intro">
+          <img src="assets/asif-gill.jpg" alt="Professor Asif Gill" width="408" height="408">
+          <div>
+            <p class="reveal-kicker">Professor · Researcher · Technology leader</p>
+            <h1>Asif Gill</h1>
+            <button class="reveal-button" type="button" data-next>
+              Discover more <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </section>
 
-    <footer class="simple-footer">
-      <p>Sydney, Australia</p>
-      <p>© 2026 Asif Gill</p>
-    </footer>
+        <section class="reveal-panel">
+          <div class="reveal-statement">
+            <p class="reveal-kicker">Research + practice</p>
+            <h2>Human-centred intelligent systems.</h2>
+            <p>Connecting rigorous research with more than 25 years of industry experience.</p>
+            <div class="reveal-actions">
+              <a class="reveal-button" href="about.html">About Asif</a>
+              <button class="reveal-text-button" type="button" data-next>Next <span aria-hidden="true">→</span></button>
+            </div>
+          </div>
+        </section>
+
+        <section class="reveal-panel">
+          <div class="reveal-statement">
+            <p class="reveal-kicker">Books</p>
+            <h2>Ideas for adaptive enterprises.</h2>
+            <div class="reveal-actions">
+              <a class="reveal-button" href="books.html">Explore the books</a>
+              <button class="reveal-text-button" type="button" data-next>Next <span aria-hidden="true">→</span></button>
+            </div>
+          </div>
+        </section>
+
+        <section class="reveal-panel">
+          <div class="reveal-statement">
+            <p class="reveal-kicker">Research + writing</p>
+            <h2>From architecture to AI.</h2>
+            <div class="reveal-actions">
+              <a class="reveal-button" href="publications.html">Publications</a>
+              <a class="reveal-text-button" href="blog/">Writing</a>
+            </div>
+          </div>
+        </section>
+      </div>
+      <nav class="reveal-controls" aria-label="Introduction controls">
+        <button type="button" data-previous aria-label="Previous section">←</button>
+        <p aria-live="polite"><span data-current>1</span> / <span data-total>4</span></p>
+        <button type="button" data-next aria-label="Next section">→</button>
+      </nav>
+    </main>
   </body>
 </html>
