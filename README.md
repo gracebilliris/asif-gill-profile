@@ -26,6 +26,8 @@ the destination repository's settings.
 ## Updating content
 
 - Main profile content: `index.html`
+- About page: `about.html`
+- Books index and detail pages: `books.html`, `_books/*.md`
 - Complete searchable publication archive: `publications.html`
 - Static publication metadata: `assets/publications.json`
 - Writing index: `blog/index.html`

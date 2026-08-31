@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.summary | escape }}">
+    <meta name="theme-color" content="#ffffff">
+    <title>{{ page.title }} · Asif Gill</title>
+    <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="stylesheet" href="{{ '/assets/simple.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="simple-header">
+      <a class="simple-name" href="{{ '/' | relative_url }}">Asif Gill</a>
+      <nav aria-label="Primary navigation">
+        <a href="{{ '/about.html' | relative_url }}">About</a>
+        <a href="{{ '/books.html' | relative_url }}" aria-current="page">Books</a>
+        <a href="{{ '/publications.html' | relative_url }}">Publications</a>
+        <a href="{{ '/blog/' | relative_url }}">Writing</a>
+      </nav>
+    </header>
+
+    <main id="main" class="simple-main">
+      <article class="book-detail">
+        <div class="book-cover book-detail-cover">
+          <small>Asif Gill</small>
+          <strong>{{ page.title }}</strong>
+          {% if page.subtitle %}<span>{{ page.subtitle }}</span>{% endif %}
+        </div>
+        <div class="book-detail-copy">
+          <p class="simple-meta">{{ page.year }} · {{ page.topic }}</p>
+          <h1>{{ page.title }}</h1>
+          {% if page.subtitle %}<p class="detail-subtitle">{{ page.subtitle }}</p>{% endif %}
+          <p class="detail-summary">{{ page.summary }}</p>
+          <div class="article-content">{{ content }}</div>
+          <p class="back-link"><a href="{{ '/books.html' | relative_url }}">← All books</a></p>
+        </div>
+      </article>
+    </main>
+
+    <footer class="simple-footer">
+      <p>© 2026 Asif Gill</p>
+    </footer>
+  </body>
+</html>
