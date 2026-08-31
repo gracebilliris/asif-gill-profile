@@ -9,7 +9,8 @@ no backend or runtime dependencies.
 1. Create an empty GitHub repository, such as `asif-gill-profile`.
 2. Add that repository as the Git remote and push the `main` branch.
 3. In **Settings → Pages**, choose **Deploy from a branch**, then select `main`
-   and `/ (root)`.
+   and `/ (root)`, or enable GitHub Actions and run the **Build website**
+   workflow manually.
 
 For a user site at `https://USERNAME.github.io`, name the repository
 `USERNAME.github.io`. For a project repository, GitHub publishes it under
@@ -48,6 +49,10 @@ python3 scripts/update_publications.py
 
 The generated JSON is committed to the repository, so the published website
 does not call ORCID or any other publication API.
+
+The repository validates the Jekyll site on every push. Deployment runs only
+when the **Build website** workflow is started manually, after Pages has been
+enabled for a public repository.
 
 ## Publishing blog posts
 
