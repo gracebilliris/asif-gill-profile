@@ -1,49 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1100" role="img" aria-labelledby="title desc">
-  <title id="title">Abstract blue architectural field</title>
-  <desc id="desc">Layered arcs, points, and translucent forms suggesting connected systems.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4800 1000">
   <defs>
-    <radialGradient id="glow-a" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#287da3" stop-opacity=".62"/>
-      <stop offset="1" stop-color="#287da3" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glow-b" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#604b9b" stop-opacity=".48"/>
-      <stop offset="1" stop-color="#604b9b" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="sweep" x1="0" y1="1" x2="1" y2="0">
-      <stop offset="0" stop-color="#0a2039"/>
-      <stop offset=".48" stop-color="#102d4d"/>
-      <stop offset="1" stop-color="#09192f"/>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#123e5b"/>
+      <stop offset=".35" stop-color="#0c2b49"/>
+      <stop offset=".7" stop-color="#182b58"/>
+      <stop offset="1" stop-color="#311f50"/>
     </linearGradient>
-    <pattern id="points" width="52" height="52" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.5" fill="#bcd8e9" opacity=".18"/>
+    <radialGradient id="cyan">
+      <stop offset="0" stop-color="#48a2bd" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#48a2bd" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violet">
+      <stop offset="0" stop-color="#7854a2" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#7854a2" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="52" height="52" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#d8e9f2" opacity=".16"/>
     </pattern>
   </defs>
 
-  <rect width="1800" height="1100" fill="url(#sweep)"/>
-  <ellipse cx="260" cy="170" rx="650" ry="570" fill="url(#glow-a)"/>
-  <ellipse cx="1580" cy="910" rx="720" ry="600" fill="url(#glow-b)"/>
-  <rect width="1800" height="1100" fill="url(#points)"/>
+  <rect width="4800" height="1000" fill="url(#base)"/>
+  <rect width="4800" height="1000" fill="url(#dots)"/>
+  <ellipse cx="480" cy="190" rx="820" ry="680" fill="url(#cyan)"/>
+  <ellipse cx="2520" cy="510" rx="980" ry="820" fill="url(#violet)"/>
+  <ellipse cx="4420" cy="260" rx="850" ry="700" fill="url(#cyan)" opacity=".48"/>
 
-  <g fill="none" stroke="#9dc8df" stroke-width="2" opacity=".16">
-    <circle cx="1410" cy="250" r="120"/>
-    <circle cx="1410" cy="250" r="205"/>
-    <circle cx="1410" cy="250" r="295"/>
-    <circle cx="1410" cy="250" r="390"/>
-    <path d="M-100 850C260 620 510 1040 850 770S1430 430 1900 650"/>
-    <path d="M-120 925C250 695 520 1110 865 845S1445 510 1920 720"/>
-    <path d="M-140 1000C240 765 525 1180 880 920S1460 590 1940 790"/>
+  <g fill="none" stroke="#c4dfeb" stroke-width="2" opacity=".24">
+    <path d="M-80 710 310 260 710 520 1120 180 1510 490 1900 270"/>
+    <path d="M160 920C510 610 850 990 1200 730S1760 410 2080 650"/>
+    <circle cx="2130" cy="430" r="145"/>
+    <circle cx="2130" cy="430" r="245"/>
+    <circle cx="2130" cy="430" r="350"/>
+    <circle cx="2130" cy="430" r="470"/>
+    <path d="M2680 130C3030 100 3140 500 3450 460S3930 180 4210 390 4570 770 4880 560"/>
+    <path d="M2640 230C2990 200 3120 600 3440 555S3930 275 4220 490 4580 865 4920 650"/>
+    <path d="M2610 330C2970 300 3100 700 3440 650S3940 375 4230 590 4590 960 4960 740"/>
   </g>
 
-  <g stroke="#e8f3f8" stroke-width="1.5" opacity=".25">
-    <path d="M160 240 510 430 790 205 1110 500 1410 250 1670 450" fill="none"/>
-    <circle cx="160" cy="240" r="6" fill="#e8f3f8"/>
-    <circle cx="510" cy="430" r="6" fill="#e8f3f8"/>
-    <circle cx="790" cy="205" r="6" fill="#e8f3f8"/>
-    <circle cx="1110" cy="500" r="6" fill="#e8f3f8"/>
-    <circle cx="1410" cy="250" r="6" fill="#e8f3f8"/>
-    <circle cx="1670" cy="450" r="6" fill="#e8f3f8"/>
+  <g fill="#d7eaf2" opacity=".52">
+    <circle cx="310" cy="260" r="8"/>
+    <circle cx="710" cy="520" r="8"/>
+    <circle cx="1120" cy="180" r="8"/>
+    <circle cx="1510" cy="490" r="8"/>
+    <circle cx="1900" cy="270" r="8"/>
+    <circle cx="2130" cy="430" r="10"/>
+    <circle cx="2680" cy="130" r="8"/>
+    <circle cx="3450" cy="460" r="8"/>
+    <circle cx="4210" cy="390" r="8"/>
   </g>
 
-  <path d="M0 1010 560 650 940 840 1290 590 1800 790V1100H0Z" fill="#07182c" opacity=".58"/>
+  <g fill="none" stroke="#b5d7e6" stroke-width="2" opacity=".16">
+    <path d="M3000 1000V730L3260 570 3520 730V1000"/>
+    <path d="M3430 1000V610L3730 420 4030 610V1000"/>
+    <path d="M3900 1000V700L4210 510 4520 700V1000"/>
+    <path d="M4300 1000V520L4580 350 4860 520"/>
+  </g>
+
+  <path d="M0 900 700 700 1390 880 2070 650 2790 850 3500 620 4200 790 4800 570V1000H0Z" fill="#07182c" opacity=".5"/>
 </svg>

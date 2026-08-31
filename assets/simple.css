@@ -135,13 +135,21 @@ a {
   min-height: 100vh;
   overflow-x: hidden;
   background-color: #091a30;
-  background-image:
-    linear-gradient(rgba(5, 17, 33, 0.08), rgba(5, 17, 33, 0.08)),
-    url("continuous-field.svg");
-  background-attachment: fixed;
-  background-position: var(--field-position, 8%) center;
-  background-size: auto 210%;
-  transition: background-position 650ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reveal-page::before {
+  position: fixed;
+  inset: 0 auto 0 0;
+  z-index: 0;
+  width: 300vw;
+  height: 100vh;
+  background:
+    linear-gradient(rgba(5, 17, 33, 0.06), rgba(5, 17, 33, 0.06)),
+    url("continuous-field.svg") center / 100% 100% no-repeat;
+  content: "";
+  pointer-events: none;
+  transform: translate3d(var(--field-shift, 0%), 0, 0);
+  transition: transform 650ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .reveal-page .simple-header {
@@ -942,6 +950,7 @@ p {
 
 @media (prefers-reduced-motion: reduce) {
   .reveal-page,
+  .reveal-page::before,
   .reveal-track,
   .book-cover,
   .read-more b {
