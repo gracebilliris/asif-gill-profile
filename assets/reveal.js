@@ -10,6 +10,9 @@
     const nextButtons = deck.querySelectorAll("[data-next]");
     let active = 0;
     let touchStart = 0;
+    let touchStartY = 0;
+    let wheelLocked = false;
+    let wheelTimer;
 
     if (!panels.length) return;
 
@@ -46,12 +49,34 @@
       if (event.key === "ArrowRight") show(active + 1);
     });
 
+    deck.addEventListener("wheel", (event) => {
+      const movement = Math.abs(event.deltaY) >= Math.abs(event.deltaX)
+        ? event.deltaY
+        : event.deltaX;
+
+      if (Math.abs(movement) < 12) return;
+      event.preventDefault();
+      window.clearTimeout(wheelTimer);
+      wheelTimer = window.setTimeout(() => {
+        wheelLocked = false;
+      }, 180);
+
+      if (wheelLocked) return;
+      wheelLocked = true;
+      show(active + (movement > 0 ? 1 : -1));
+    }, { passive: false });
+
     deck.addEventListener("touchstart", (event) => {
       touchStart = event.changedTouches[0].clientX;
+      touchStartY = event.changedTouches[0].clientY;
     }, { passive: true });
 
     deck.addEventListener("touchend", (event) => {
-      const distance = event.changedTouches[0].clientX - touchStart;
+      const distanceX = event.changedTouches[0].clientX - touchStart;
+      const distanceY = event.changedTouches[0].clientY - touchStartY;
+      const horizontal = Math.abs(distanceX) >= Math.abs(distanceY);
+      const distance = horizontal ? distanceX : distanceY;
+
       if (Math.abs(distance) < 45) return;
       show(active + (distance < 0 ? 1 : -1));
     }, { passive: true });
