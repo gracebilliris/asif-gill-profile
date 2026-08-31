@@ -4,6 +4,7 @@ title: Adaptive Enterprise Architecture as Information
 subtitle: Architecting Intelligent Enterprises
 year: 2022
 topic: Enterprise architecture
+cover: /assets/book-covers/adaptive-enterprise-architecture-as-information.jpg
 summary: A framework for treating enterprise architecture as living information that supports intelligent and adaptive organisations.
 ---
 

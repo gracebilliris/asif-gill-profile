@@ -3,6 +3,7 @@ layout: book
 title: Adaptive Enterprise Strategy Journey Management
 year: 2017
 topic: Enterprise strategy
+cover: /assets/book-covers/adaptive-enterprise-strategy-journey-management.jpg
 summary: A practical approach to building and executing adaptive business strategy in rapidly changing digital environments.
 ---
 

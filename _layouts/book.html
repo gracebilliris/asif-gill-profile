@@ -23,11 +23,21 @@
 
     <main id="main" class="simple-main">
       <article class="book-detail">
+        {% if page.cover %}
+        <img
+          class="book-cover-image book-detail-cover"
+          src="{{ page.cover | relative_url }}"
+          alt="Cover of {{ page.title | escape }}"
+          width="333"
+          height="500"
+        >
+        {% else %}
         <div class="book-cover book-detail-cover">
           <small>Asif Gill</small>
           <strong>{{ page.title }}</strong>
           {% if page.subtitle %}<span>{{ page.subtitle }}</span>{% endif %}
         </div>
+        {% endif %}
         <div class="book-detail-copy">
           <p class="simple-meta">{{ page.year }} · {{ page.topic }}</p>
           <h1>{{ page.title }}</h1>

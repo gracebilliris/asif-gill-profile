@@ -30,11 +30,21 @@
         {% for book in books %}
         <section class="reveal-panel">
           <div class="reveal-book book-tone-{{ forloop.index }}">
+            {% if book.cover %}
+            <img
+              class="book-cover-image"
+              src="{{ book.cover | relative_url }}"
+              alt="Cover of {{ book.title | escape }}"
+              width="333"
+              height="500"
+            >
+            {% else %}
             <div class="book-cover">
               <small>Asif Gill</small>
               <strong>{{ book.title }}</strong>
               {% if book.subtitle %}<span>{{ book.subtitle }}</span>{% endif %}
             </div>
+            {% endif %}
             <div class="reveal-book-copy">
               <p class="reveal-kicker">{{ book.year }} · {{ book.topic }}</p>
               <h1>{{ book.title }}</h1>

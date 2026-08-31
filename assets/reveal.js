@@ -11,8 +11,7 @@
     let active = 0;
     let touchStart = 0;
     let touchStartY = 0;
-    let wheelLocked = false;
-    let wheelTimer;
+    let lastWheelMove = 0;
 
     if (!panels.length) return;
 
@@ -56,13 +55,10 @@
 
       if (Math.abs(movement) < 12) return;
       event.preventDefault();
-      window.clearTimeout(wheelTimer);
-      wheelTimer = window.setTimeout(() => {
-        wheelLocked = false;
-      }, 180);
 
-      if (wheelLocked) return;
-      wheelLocked = true;
+      const now = Date.now();
+      if (now - lastWheelMove < 500) return;
+      lastWheelMove = now;
       show(active + (movement > 0 ? 1 : -1));
     }, { passive: false });
 

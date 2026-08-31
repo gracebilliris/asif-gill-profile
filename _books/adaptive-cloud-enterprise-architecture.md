@@ -3,6 +3,7 @@ layout: book
 title: Adaptive Cloud Enterprise Architecture
 year: 2015
 topic: Cloud systems
+cover: /assets/book-covers/adaptive-cloud-enterprise-architecture.jpg
 summary: A service-systems approach to aligning cloud technology, business capabilities and organisational change.
 ---
 
