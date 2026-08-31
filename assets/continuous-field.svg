@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract blue architectural field</title>
+  <desc id="desc">Layered arcs, points, and translucent forms suggesting connected systems.</desc>
+  <defs>
+    <radialGradient id="glow-a" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#287da3" stop-opacity=".62"/>
+      <stop offset="1" stop-color="#287da3" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-b" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#604b9b" stop-opacity=".48"/>
+      <stop offset="1" stop-color="#604b9b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sweep" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#0a2039"/>
+      <stop offset=".48" stop-color="#102d4d"/>
+      <stop offset="1" stop-color="#09192f"/>
+    </linearGradient>
+    <pattern id="points" width="52" height="52" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#bcd8e9" opacity=".18"/>
+    </pattern>
+  </defs>
+
+  <rect width="1800" height="1100" fill="url(#sweep)"/>
+  <ellipse cx="260" cy="170" rx="650" ry="570" fill="url(#glow-a)"/>
+  <ellipse cx="1580" cy="910" rx="720" ry="600" fill="url(#glow-b)"/>
+  <rect width="1800" height="1100" fill="url(#points)"/>
+
+  <g fill="none" stroke="#9dc8df" stroke-width="2" opacity=".16">
+    <circle cx="1410" cy="250" r="120"/>
+    <circle cx="1410" cy="250" r="205"/>
+    <circle cx="1410" cy="250" r="295"/>
+    <circle cx="1410" cy="250" r="390"/>
+    <path d="M-100 850C260 620 510 1040 850 770S1430 430 1900 650"/>
+    <path d="M-120 925C250 695 520 1110 865 845S1445 510 1920 720"/>
+    <path d="M-140 1000C240 765 525 1180 880 920S1460 590 1940 790"/>
+  </g>
+
+  <g stroke="#e8f3f8" stroke-width="1.5" opacity=".25">
+    <path d="M160 240 510 430 790 205 1110 500 1410 250 1670 450" fill="none"/>
+    <circle cx="160" cy="240" r="6" fill="#e8f3f8"/>
+    <circle cx="510" cy="430" r="6" fill="#e8f3f8"/>
+    <circle cx="790" cy="205" r="6" fill="#e8f3f8"/>
+    <circle cx="1110" cy="500" r="6" fill="#e8f3f8"/>
+    <circle cx="1410" cy="250" r="6" fill="#e8f3f8"/>
+    <circle cx="1670" cy="450" r="6" fill="#e8f3f8"/>
+  </g>
+
+  <path d="M0 1010 560 650 940 840 1290 590 1800 790V1100H0Z" fill="#07182c" opacity=".58"/>
+</svg>

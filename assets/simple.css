@@ -128,8 +128,34 @@ a {
 }
 
 .reveal-page {
+  --text: #f4f7fb;
+  --muted: #bdc9d7;
+  --line: rgba(255, 255, 255, 0.22);
+  --link: #fff;
   min-height: 100vh;
   overflow-x: hidden;
+  background-color: #091a30;
+  background-image:
+    linear-gradient(rgba(5, 17, 33, 0.08), rgba(5, 17, 33, 0.08)),
+    url("continuous-field.svg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.reveal-page .simple-header {
+  position: relative;
+  z-index: 3;
+  border-bottom-color: var(--line);
+}
+
+.reveal-page .simple-name,
+.reveal-page .simple-header nav a {
+  color: var(--text);
+}
+
+.reveal-page .simple-header nav a[aria-current="page"] {
+  text-decoration-color: #8ec7df;
 }
 
 .reveal-deck {
@@ -169,6 +195,14 @@ a {
   width: 100%;
   aspect-ratio: 4 / 5;
   object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  box-shadow: 22px 24px 0 rgba(3, 12, 25, 0.28);
+  filter: saturate(0.78) contrast(1.03);
+}
+
+.reveal-intro > div,
+.reveal-book-copy {
+  min-width: 0;
 }
 
 .reveal-intro h1,
@@ -229,6 +263,18 @@ a {
   background: var(--text);
 }
 
+.reveal-page .reveal-button,
+.reveal-page .reveal-text-button {
+  border-color: rgba(255, 255, 255, 0.72);
+  color: var(--text);
+}
+
+.reveal-page .reveal-button:hover,
+.reveal-page .reveal-button:focus-visible {
+  color: #0a1d34;
+  background: var(--text);
+}
+
 .reveal-text-button {
   min-height: auto;
   padding: 4px 0;
@@ -262,7 +308,9 @@ a {
   height: 40px;
   border: 1px solid var(--line);
   border-radius: 50%;
-  background: #fff;
+  color: var(--text);
+  background: rgba(8, 25, 45, 0.56);
+  backdrop-filter: blur(8px);
   cursor: pointer;
 }
 
@@ -286,6 +334,8 @@ a {
 
 .reveal-book .book-cover {
   min-height: 460px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 24px 28px 0 rgba(3, 12, 25, 0.25);
 }
 
 .reveal-book-copy h1 {
@@ -791,8 +841,9 @@ p {
   }
 
   .reveal-panel {
-    min-height: calc(100vh - 145px);
-    padding-top: 45px;
+    min-height: calc(100vh - 130px);
+    padding-top: 32px;
+    padding-bottom: 90px;
   }
 
   .reveal-intro,
@@ -802,12 +853,26 @@ p {
   }
 
   .reveal-intro img {
-    width: min(66vw, 250px);
+    width: min(58vw, 220px);
   }
 
   .reveal-intro h1,
   .reveal-statement h2 {
     font-size: clamp(42px, 14vw, 64px);
+  }
+
+  .reveal-intro h1 {
+    margin-bottom: 24px;
+  }
+
+  .reveal-kicker {
+    max-width: 100%;
+    font-size: 10px;
+    line-height: 1.5;
+  }
+
+  .reveal-controls {
+    bottom: 20px;
   }
 
   .reveal-book .book-cover {
