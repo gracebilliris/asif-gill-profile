@@ -22,6 +22,8 @@
       active = Math.max(0, Math.min(index, panels.length - 1));
       track.style.transform = `translateX(-${active * 100}%)`;
       current.textContent = active + 1;
+      const progress = panels.length > 1 ? active / (panels.length - 1) : 0;
+      document.body.style.setProperty("--field-position", `${8 + progress * 84}%`);
 
       panels.forEach((panel, panelIndex) => {
         panel.setAttribute("aria-hidden", panelIndex !== active);
