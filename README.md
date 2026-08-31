@@ -30,8 +30,7 @@ the destination repository's settings.
 - Writing index: `blog/index.html`
 - Blog posts: `_posts/*.md`
 - Reusable article layout: `_layouts/post.html`
-- Colours, typography and layout: `assets/styles.css`
-- Menu and current footer year: `assets/script.js`
+- Simple typography and layout: `assets/simple.css`
 
 Biographical and research details in this draft were researched from public
 academic and professional sources, then written directly into the site so it
