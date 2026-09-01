@@ -884,6 +884,76 @@ p {
   color: var(--link);
 }
 
+.media-series-heading {
+  margin: 48px 0 18px;
+}
+
+.media-series-heading .simple-meta {
+  margin-bottom: 8px;
+}
+
+.media-series-heading h3 {
+  margin: 0;
+  font-size: clamp(24px, 3vw, 34px);
+  font-weight: 400;
+}
+
+.media-list {
+  display: grid;
+  border-top: 1px solid var(--line);
+}
+
+.media-list a {
+  display: grid;
+  grid-template-columns: minmax(105px, 0.35fr) minmax(0, 1.65fr) auto;
+  gap: 24px;
+  align-items: center;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.media-list a:hover strong,
+.media-list a:focus-visible strong {
+  color: var(--link);
+}
+
+.media-list span,
+.media-list small {
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.media-list strong {
+  font-size: clamp(18px, 2vw, 24px);
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.media-list small {
+  color: var(--link);
+  white-space: nowrap;
+}
+
+.media-channel-link {
+  display: inline-block;
+  margin-top: 28px;
+  color: var(--link);
+  font-family: var(--sans);
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.media-channel-link:hover,
+.media-channel-link:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .contact-links {
   display: grid;
   border-top: 1px solid var(--line);
@@ -1168,6 +1238,15 @@ p {
   .contact-links a {
     grid-template-columns: 80px 1fr auto;
     gap: 12px;
+  }
+
+  .media-list a {
+    grid-template-columns: 1fr auto;
+    gap: 8px 16px;
+  }
+
+  .media-list a span {
+    grid-column: 1 / -1;
   }
 
   .contact-form-row {
