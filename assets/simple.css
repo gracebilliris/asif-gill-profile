@@ -889,6 +889,10 @@ p {
   border-top: 1px solid var(--line);
 }
 
+.contact-socials {
+  margin-top: 70px;
+}
+
 .contact-links a {
   display: grid;
   padding: 25px 0;
@@ -906,6 +910,74 @@ p {
 
 .contact-links strong {
   font-weight: 400;
+}
+
+.contact-form {
+  display: grid;
+  gap: 24px;
+}
+
+.contact-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.contact-form label {
+  display: grid;
+  gap: 7px;
+}
+
+.contact-form label > span {
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 12px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 0;
+  color: var(--text);
+  background: #fff;
+  font: 16px/1.5 var(--sans);
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--text);
+  outline: 2px solid rgba(23, 77, 140, 0.18);
+  outline-offset: 2px;
+}
+
+.form-submit {
+  justify-self: start;
+  min-height: 46px;
+  padding: 0 20px;
+  border: 1px solid var(--text);
+  color: #fff;
+  background: var(--text);
+  cursor: pointer;
+  font: 13px var(--sans);
+}
+
+.form-submit:hover,
+.form-submit:focus-visible {
+  color: var(--text);
+  background: #fff;
+}
+
+.form-note {
+  max-width: 520px;
+  margin: -8px 0 0;
+  color: var(--muted);
+  font-size: 14px;
 }
 
 .writing-list article {
@@ -1096,6 +1168,10 @@ p {
   .contact-links a {
     grid-template-columns: 80px 1fr auto;
     gap: 12px;
+  }
+
+  .contact-form-row {
+    grid-template-columns: 1fr;
   }
 
   .book-detail-cover {

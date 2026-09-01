@@ -11,6 +11,7 @@ nav: contact
     <title>Contact · Asif Gill</title>
     <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
     <link rel="stylesheet" href="{{ '/assets/simple.css' | relative_url }}">
+    <script src="{{ '/assets/contact.js' | relative_url }}" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -23,12 +24,35 @@ nav: contact
         <p>For speaking, collaboration, advisory work and professional enquiries.</p>
       </header>
 
-      <div class="contact-links">
-        <a href="mailto:asif.gill@uts.edu.au">
-          <span>Email</span>
-          <strong>asif.gill@uts.edu.au</strong>
-          <b aria-hidden="true">→</b>
-        </a>
+      <form class="contact-form" id="contact-form">
+        <div class="contact-form-row">
+          <label>
+            <span>Name</span>
+            <input name="name" type="text" autocomplete="name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input name="email" type="email" autocomplete="email" required>
+          </label>
+        </div>
+        <label>
+          <span>Subject</span>
+          <input name="subject" type="text" required>
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="7" required></textarea>
+        </label>
+        <button class="form-submit" type="submit">
+          Compose message <span aria-hidden="true">→</span>
+        </button>
+        <p class="form-note">
+          This opens your email application with the message ready to send.
+          Your details are not stored by this website.
+        </p>
+      </form>
+
+      <div class="contact-links contact-socials">
         <a href="https://www.linkedin.com/in/asifgill" target="_blank" rel="noopener">
           <span>LinkedIn</span>
           <strong>Connect with Asif</strong>
