@@ -1,0 +1,19 @@
+<header class="simple-header">
+  <a class="simple-name" href="{{ '/' | relative_url }}">Asif Gill</a>
+  {% assign active_nav = include.nav | default: page.nav %}
+  {% assign active_section = include.section | default: page.section %}
+  <nav aria-label="Primary navigation">
+    <a href="{{ '/about.html' | relative_url }}"{% if active_nav == 'about' %} aria-current="page"{% endif %}>About</a>
+    <a href="{{ '/projects.html' | relative_url }}"{% if active_nav == 'projects' %} aria-current="page"{% endif %}>Projects</a>
+    <details class="nav-menu"{% if active_nav == 'publications' %} data-current="true"{% endif %}>
+      <summary>Publications</summary>
+      <div>
+        <a href="{{ '/books.html' | relative_url }}"{% if active_section == 'books' %} aria-current="page"{% endif %}>Books</a>
+        <a href="{{ '/articles.html' | relative_url }}"{% if active_section == 'articles' %} aria-current="page"{% endif %}>Articles</a>
+      </div>
+    </details>
+    <a href="{{ '/media.html' | relative_url }}"{% if active_nav == 'media' %} aria-current="page"{% endif %}>Media</a>
+    <a href="https://aqgill.blogspot.com/" target="_blank" rel="noopener">Blog <span class="external-mark" aria-hidden="true">↗</span></a>
+    <a href="{{ '/contact.html' | relative_url }}"{% if active_nav == 'contact' %} aria-current="page"{% endif %}>Contact</a>
+  </nav>
+</header>

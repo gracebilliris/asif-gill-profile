@@ -6,6 +6,11 @@ const count = document.querySelector("#publication-count");
 const total = document.querySelector("#total-works");
 const clearButton = document.querySelector("#clear-filters");
 const errorMessage = document.querySelector("#publication-error");
+const allowedTypes = new Set(
+  (document.querySelector("#publication-filters")?.dataset.types || "")
+    .split(",")
+    .filter(Boolean)
+);
 
 const typeLabels = {
   "book": "Book",
@@ -73,7 +78,7 @@ function createPublication(work) {
 
 function render() {
   const query = searchInput.value.trim().toLowerCase();
-  const selectedType = typeSelect.value;
+  const selectedType = typeSelect?.value || "";
   const selectedYear = yearSelect.value;
   const matches = publications.filter((work) => {
     const searchable = `${work.title} ${work.venue}`.toLowerCase();
@@ -110,16 +115,23 @@ async function loadPublications() {
     }
 
     publications = await response.json();
+    if (allowedTypes.size) {
+      publications = publications.filter((work) => allowedTypes.has(work.type));
+    }
     total.textContent = publications.length;
 
-    const types = [...new Set(publications.map((work) => work.type))].sort((a, b) =>
-      (typeLabels[a] || a).localeCompare(typeLabels[b] || b)
-    );
+    const types = typeSelect
+      ? [...new Set(publications.map((work) => work.type))].sort((a, b) =>
+          (typeLabels[a] || a).localeCompare(typeLabels[b] || b)
+        )
+      : [];
     const years = [...new Set(publications.map((work) => work.year))].sort((a, b) =>
       b.localeCompare(a)
     );
 
-    addOptions(typeSelect, types, (value) => typeLabels[value] || value);
+    if (typeSelect) {
+      addOptions(typeSelect, types, (value) => typeLabels[value] || value);
+    }
     addOptions(yearSelect, years, (value) => value);
     render();
   } catch (error) {
@@ -129,13 +141,15 @@ async function loadPublications() {
   }
 }
 
-[searchInput, typeSelect, yearSelect].forEach((control) => {
+[searchInput, typeSelect, yearSelect].filter(Boolean).forEach((control) => {
   control.addEventListener("input", render);
 });
 
 clearButton.addEventListener("click", () => {
   searchInput.value = "";
-  typeSelect.value = "";
+  if (typeSelect) {
+    typeSelect.value = "";
+  }
   yearSelect.value = "";
   render();
   searchInput.focus();

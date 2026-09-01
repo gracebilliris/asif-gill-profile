@@ -1,4 +1,6 @@
 ---
+nav: publications
+section: books
 ---
 <!doctype html>
 <html lang="en">
@@ -14,15 +16,7 @@
   </head>
   <body class="reveal-page">
     <a class="skip-link" href="#main">Skip to content</a>
-    <header class="simple-header">
-      <a class="simple-name" href="{{ '/' | relative_url }}">Asif Gill</a>
-      <nav aria-label="Primary navigation">
-        <a href="{{ '/about.html' | relative_url }}">About</a>
-        <a href="{{ '/books.html' | relative_url }}" aria-current="page">Books</a>
-        <a href="{{ '/publications.html' | relative_url }}">Publications</a>
-        <a href="{{ '/blog/' | relative_url }}">Writing</a>
-      </nav>
-    </header>
+    {% include site-header.html %}
 
     <main id="main" class="reveal-deck book-reveal" data-reveal aria-label="Books">
       <div class="reveal-track">

@@ -1,34 +1,29 @@
+---
+nav: about
+---
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="About Professor Asif Gill.">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#0c2b49">
     <title>About · Asif Gill</title>
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="assets/simple.css">
-    <script src="assets/reveal.js" defer></script>
+    <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="stylesheet" href="{{ '/assets/simple.css' | relative_url }}">
+    <script src="{{ '/assets/reveal.js' | relative_url }}" defer></script>
   </head>
   <body class="reveal-page">
     <a class="skip-link" href="#main">Skip to content</a>
-    <header class="simple-header">
-      <a class="simple-name" href="./">Asif Gill</a>
-      <nav aria-label="Primary navigation">
-        <a href="about.html" aria-current="page">About</a>
-        <a href="books.html">Books</a>
-        <a href="publications.html">Publications</a>
-        <a href="blog/">Writing</a>
-      </nav>
-    </header>
+    {% include site-header.html %}
 
     <main id="main" class="reveal-deck" data-reveal aria-label="About Asif Gill">
       <div class="reveal-track">
         <section class="reveal-panel reveal-intro">
-          <img src="assets/asif-gill.jpg" alt="Professor Asif Gill" width="408" height="408">
+          <img src="{{ '/assets/asif-gill.jpg' | relative_url }}" alt="Professor Asif Gill" width="408" height="408">
           <div>
             <p class="reveal-kicker">About</p>
-            <h1>Ideas that move between worlds.</h1>
+            <h1>Professor, Innovator and Technology Leader.</h1>
             <button class="reveal-button" type="button" data-next>
               Continue <span aria-hidden="true">→</span>
             </button>
@@ -37,46 +32,37 @@
 
         <section class="reveal-panel">
           <div class="reveal-statement">
-            <p class="reveal-kicker">Academia</p>
-            <h2>Professor of Software Systems.</h2>
-            <p>Head of Discipline at UTS and Director of the DigiSAS Research and Innovation Lab.</p>
+            <p class="reveal-kicker">Academic leadership</p>
+            <h2>Software and societal systems.</h2>
+            <p>Head of Discipline, Software Systems at UTS and Director of the DigiSAS Research and Innovation Lab.</p>
             <button class="reveal-text-button" type="button" data-next>Next <span aria-hidden="true">→</span></button>
           </div>
         </section>
 
         <section class="reveal-panel">
           <div class="reveal-statement">
-            <p class="reveal-kicker">Industry</p>
-            <h2>More than 25 years in practice.</h2>
-            <p>Working with industry and government on AI transformation, operating models, workforce capability, and enterprise-scale systems.</p>
+            <p class="reveal-kicker">Industry practice</p>
+            <h2>More than 25 years of experience.</h2>
+            <p>Leading research and commercial engagements across education, government, consulting and industry.</p>
             <button class="reveal-text-button" type="button" data-next>Next <span aria-hidden="true">→</span></button>
           </div>
         </section>
 
         <section class="reveal-panel">
           <div class="reveal-statement">
-            <p class="reveal-kicker">Research</p>
-            <h2>Architecting intelligence around people.</h2>
-            <p>Human-centred AI, agentic systems, adaptive enterprise architecture, software engineering, and trustworthy data ecosystems.</p>
-            <button class="reveal-text-button" type="button" data-next>Next <span aria-hidden="true">→</span></button>
-          </div>
-        </section>
-
-        <section class="reveal-panel">
-          <div class="reveal-statement">
-            <p class="reveal-kicker">Professional standing</p>
-            <h2>Research, standards, and service.</h2>
-            <p>PhD, MSc, and Master of Business. Fellow of the Australian Computer Society and senior member of IEEE.</p>
+            <p class="reveal-kicker">Focus</p>
+            <h2>Human-centred intelligent systems.</h2>
+            <p>Bringing strategy, adaptive architecture, AI systems, agile delivery and product innovation together.</p>
             <div class="reveal-actions">
-              <a class="reveal-button" href="publications.html">Explore the work</a>
-              <a class="reveal-text-button" href="books.html">Books</a>
+              <a class="reveal-button" href="{{ '/projects.html' | relative_url }}">View projects</a>
+              <a class="reveal-text-button" href="{{ '/contact.html' | relative_url }}">Contact</a>
             </div>
           </div>
         </section>
       </div>
       <nav class="reveal-controls" aria-label="About controls">
         <button type="button" data-previous aria-label="Previous section">←</button>
-        <p aria-live="polite"><span data-current>1</span> / <span data-total>5</span></p>
+        <p aria-live="polite"><span data-current>1</span> / <span data-total>4</span></p>
         <button type="button" data-next aria-label="Next section">→</button>
       </nav>
     </main>

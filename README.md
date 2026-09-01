@@ -1,8 +1,8 @@
-# Asif Gill — profile and writing
+# Asif Gill — author profile
 
-A lightweight static profile and blog for Professor Asif Gill. GitHub Pages
-automatically builds the Markdown blog posts with Jekyll; the published site has
-no backend or runtime dependencies.
+A lightweight static author profile for Professor Asif Gill. GitHub Pages
+builds the site with Jekyll; the published site has no backend or runtime
+dependencies.
 
 ## Publish on Grace's GitHub
 
@@ -27,12 +27,13 @@ the destination repository's settings.
 
 - Main profile content: `index.html`
 - About page: `about.html`
+- Projects and frameworks: `projects.html`
 - Books index and detail pages: `books.html`, `_books/*.md`
-- Complete searchable publication archive: `publications.html`
+- Searchable journal-article and preprint archive: `articles.html`
+- Interviews, podcasts and videocasts: `media.html`
+- Contact and professional links: `contact.html`
 - Static publication metadata: `assets/publications.json`
-- Writing index: `blog/index.html`
-- Blog posts: `_posts/*.md`
-- Reusable article layout: `_layouts/post.html`
+- External blog redirect: `blog/index.html`
 - Simple typography and layout: `assets/simple.css`
 
 Biographical and research details in this draft were researched from public
@@ -56,8 +57,5 @@ The repository validates the Jekyll site on every push. Deployment runs only
 when the **Build website** workflow is started manually, after Pages has been
 enabled for a public repository.
 
-## Publishing blog posts
-
-See [`BLOGGING.md`](BLOGGING.md) for the browser-based workflow. Asif only needs
-to create a dated Markdown file in `_posts`; GitHub Pages automatically updates
-the writing index and publishes the article.
+The Blog navigation links to Asif's established site at
+`https://aqgill.blogspot.com/`.

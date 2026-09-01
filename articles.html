@@ -1,0 +1,63 @@
+---
+nav: publications
+section: articles
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Journal articles and preprints by Professor Asif Gill.">
+    <meta name="theme-color" content="#ffffff">
+    <title>Articles · Asif Gill</title>
+    <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="stylesheet" href="{{ '/assets/simple.css' | relative_url }}">
+    <script src="{{ '/assets/publications.js' | relative_url }}" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    {% include site-header.html %}
+
+    <main id="main" class="simple-main">
+      <header class="simple-page-header">
+        <p class="simple-meta">Publications</p>
+        <h1>Articles</h1>
+        <p>Journal articles and public preprints spanning intelligent systems, enterprise architecture and software engineering.</p>
+        <p class="publication-total"><strong id="total-works">0</strong> articles in the archive</p>
+      </header>
+
+      <section aria-labelledby="archive-heading">
+        <h2 id="archive-heading">Browse the work</h2>
+        <form
+          class="publication-tools article-tools"
+          id="publication-filters"
+          role="search"
+          data-types="journal-article,preprint"
+        >
+          <label class="publication-search">
+            <span>Search by title or venue</span>
+            <input id="publication-search" type="search" placeholder="e.g. enterprise architecture" autocomplete="off">
+          </label>
+          <label>
+            <span>Year</span>
+            <select id="publication-year">
+              <option value="">All years</option>
+            </select>
+          </label>
+        </form>
+        <div class="publication-status">
+          <p id="publication-count" aria-live="polite">Loading articles…</p>
+          <button id="clear-filters" type="button">Clear filters</button>
+        </div>
+        <div id="publication-list" class="publication-list"></div>
+        <noscript><p>JavaScript is required to display the article archive.</p></noscript>
+        <p id="publication-error" hidden>The article archive could not be loaded.</p>
+        <p class="archive-note">Local snapshot of Asif Gill’s public scholarly record, updated August 2026. DOI links are included where available.</p>
+      </section>
+    </main>
+
+    <footer class="simple-footer">
+      <p>© 2026 Asif Gill</p>
+    </footer>
+  </body>
+</html>
